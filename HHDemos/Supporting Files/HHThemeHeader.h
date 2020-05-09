@@ -3,7 +3,7 @@
 //  MeiFang
 //
 //  Created by Evan on 2017/3/14.
-//  Copyright © 2017年 Vanke.com All rights reserved.
+//  Copyright © 2017年 XXXX.com All rights reserved.
 //
 //主题相关
 

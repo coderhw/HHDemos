@@ -81,7 +81,6 @@
 		6498EDF12142184C00A1BEC0 /* HHDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 6498EDF02142184C00A1BEC0 /* HHDatabase.m */; };
 		649C8116208445AC00DD8E25 /* HHWebViewTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 649C8114208445AC00DD8E25 /* HHWebViewTestController.m */; };
 		649C8117208445AC00DD8E25 /* HHWebViewTestController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 649C8115208445AC00DD8E25 /* HHWebViewTestController.xib */; };
-		649C81182084511C00DD8E25 /* dist in Resources */ = {isa = PBXBuildFile; fileRef = 649C8111208444DC00DD8E25 /* dist */; };
 		64AC206D2075DD4400693270 /* HHLayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64AC206B2075DD4400693270 /* HHLayerController.m */; };
 		64AC206E2075DD4400693270 /* HHLayerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64AC206C2075DD4400693270 /* HHLayerController.xib */; };
 		64ADE1EF209FFBFE005F85A6 /* HHDBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64ADE1ED209FFBFE005F85A6 /* HHDBViewController.m */; };
@@ -291,7 +290,6 @@
 		648ADB13222EB93700DA4B22 /* HHThread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHThread.m; sourceTree = "<group>"; };
 		6498EDEF2142184C00A1BEC0 /* HHDatabase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHDatabase.h; sourceTree = "<group>"; };
 		6498EDF02142184C00A1BEC0 /* HHDatabase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHDatabase.m; sourceTree = "<group>"; };
-		649C8111208444DC00DD8E25 /* dist */ = {isa = PBXFileReference; lastKnownFileType = folder; path = dist; sourceTree = "<group>"; };
 		649C8113208445AC00DD8E25 /* HHWebViewTestController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHWebViewTestController.h; sourceTree = "<group>"; };
 		649C8114208445AC00DD8E25 /* HHWebViewTestController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHWebViewTestController.m; sourceTree = "<group>"; };
 		649C8115208445AC00DD8E25 /* HHWebViewTestController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HHWebViewTestController.xib; sourceTree = "<group>"; };
@@ -813,7 +811,6 @@
 				64BC90C21F0CBA68006FCEA2 /* HHThemeHeader.h */,
 				64BC90C31F0CBA68006FCEA2 /* HHUtilsDefineHeader.h */,
 				644C175E2442DCC000194BBD /* HHNotificationHeader.h */,
-				649C8111208444DC00DD8E25 /* dist */,
 				64BC907C1F0CB800006FCEA2 /* HHDemos-Prefix.pch */,
 				64BC906E1F0CB705006FCEA2 /* Assets.xcassets */,
 				64BC90731F0CB705006FCEA2 /* Info.plist */,
@@ -1106,7 +1103,7 @@
 		64BC90571F0CB705006FCEA2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = Evan;
 				TargetAttributes = {
 					64BC905E1F0CB705006FCEA2 = {
@@ -1140,7 +1137,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				649C81182084511C00DD8E25 /* dist in Resources */,
 				64BDE3522285268A00742737 /* HHPickView.xib in Resources */,
 				649C8117208445AC00DD8E25 /* HHWebViewTestController.xib in Resources */,
 				64ADE1F0209FFBFE005F85A6 /* HHDBViewController.xib in Resources */,
@@ -1317,6 +1313,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -1327,6 +1324,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -1334,6 +1332,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -1360,7 +1359,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -1371,6 +1370,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -1381,6 +1381,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -1388,6 +1389,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -1408,7 +1410,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -1435,8 +1437,8 @@
 					Files,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "HHDemoProject/Supporting Files/HHDemos-Prefix.pch";
-				INFOPLIST_FILE = "HHDemoProject/Supporting Files/Info.plist";
+				GCC_PREFIX_HEADER = "HHDemos/Supporting Files/HHDemos-Prefix.pch";
+				INFOPLIST_FILE = "HHDemos/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xxxxx.;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1464,8 +1466,8 @@
 					Files,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "HHDemoProject/Supporting Files/HHDemos-Prefix.pch";
-				INFOPLIST_FILE = "HHDemoProject/Supporting Files/Info.plist";
+				GCC_PREFIX_HEADER = "HHDemos/Supporting Files/HHDemos-Prefix.pch";
+				INFOPLIST_FILE = "HHDemos/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xxxxx.;
 				PRODUCT_NAME = "$(TARGET_NAME)";

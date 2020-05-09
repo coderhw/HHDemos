@@ -1,9 +1,8 @@
 //
-//  NSString+Util.m
 //  ZKFramework
 //
 //  Created by kyori.hu on 12-10-10.
-//  Copyright (c) 2012 Vanke.com All rights reserved.
+//  Copyright (c) 2012 XXXX.com All rights reserved.
 //
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>

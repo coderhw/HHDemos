@@ -1,7 +1,7 @@
 
 //
 //  Created by Evan on 14-8-21.
-//  Copyright (c) 2014年 Vanke. All rights reserved.
+//  Copyright (c) 2014年 XXXX. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

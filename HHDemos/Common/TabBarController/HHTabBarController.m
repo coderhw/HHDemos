@@ -3,7 +3,7 @@
 //  VKTabBarDemo
 //
 //  Created by Evan on 2017/2/7.
-//  Copyright © 2017年 Vanke.com All rights reserved.
+//  Copyright © 2017年 XXXX.com All rights reserved.
 //
 
 #import "HHTabBarController.h"

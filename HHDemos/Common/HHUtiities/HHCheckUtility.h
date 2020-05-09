@@ -3,7 +3,7 @@
 //  MeiFang
 //
 //  Created by ChenBaolin on 2016/2/14.
-//  Copyright © 2017年 Vanke.com All rights reserved.
+//  Copyright © 2017年 XXXX.com All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

@@ -3,7 +3,7 @@
 //  MeiFang
 //
 //  Created by Evan on 2016/12/22.
-//  Copyright © 2016年 Vanke.com All rights reserved.
+//  Copyright © 2016年 XXXX.com All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
