@@ -1,2 +1,1 @@
-# VKTeamsProject
-VKTeamsProject
+empty
