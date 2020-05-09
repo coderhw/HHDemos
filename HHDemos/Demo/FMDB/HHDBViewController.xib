@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HHDBViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MYs-ha-dQ2">
+                    <rect key="frame" x="61" y="79" width="60" height="30"/>
+                    <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="60" id="6fz-Kw-co5"/>
+                        <constraint firstAttribute="height" constant="30" id="FeN-aA-DTb"/>
+                    </constraints>
+                    <state key="normal" title="增">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="add:" destination="-1" eventType="touchUpInside" id="ane-Gt-mKe"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EzX-Wi-QPJ">
+                    <rect key="frame" x="254" y="79" width="60" height="30"/>
+                    <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="60" id="KEE-vx-8Qb"/>
+                        <constraint firstAttribute="height" constant="30" id="zrt-gO-bo7"/>
+                    </constraints>
+                    <state key="normal" title="删">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="delete:" destination="-1" eventType="touchUpInside" id="6Kf-7N-cRt"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fdz-EV-hPc">
+                    <rect key="frame" x="61" y="166" width="60" height="30"/>
+                    <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="60" id="SY7-uw-GKg"/>
+                        <constraint firstAttribute="height" constant="30" id="lsu-QT-BCc"/>
+                    </constraints>
+                    <state key="normal" title="查">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="query:" destination="-1" eventType="touchUpInside" id="VjC-SY-a85"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0DH-cd-XzT">
+                    <rect key="frame" x="254" y="166" width="60" height="30"/>
+                    <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="Bea-2P-lst"/>
+                        <constraint firstAttribute="width" constant="60" id="qNE-eS-y4f"/>
+                    </constraints>
+                    <state key="normal" title="改">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="modify:" destination="-1" eventType="touchUpInside" id="gG4-Eb-t1W"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hVk-Jf-I8g">
+                    <rect key="frame" x="133" y="258" width="108" height="30"/>
+                    <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="IZP-HV-ZZp"/>
+                        <constraint firstAttribute="width" constant="108" id="q5d-fM-BMF"/>
+                    </constraints>
+                    <state key="normal" title="批量插入数据1">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="insertDataWithQueue:" destination="-1" eventType="touchUpInside" id="6zq-vz-mXq"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sIj-xJ-eWB">
+                    <rect key="frame" x="124" y="350" width="127" height="30"/>
+                    <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="1kB-fZ-Pvq"/>
+                        <constraint firstAttribute="width" constant="127" id="gGp-jb-zwW"/>
+                    </constraints>
+                    <state key="normal" title="利用事务批量插入">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="insertWithTransaction:" destination="-1" eventType="touchUpInside" id="Due-gp-rgd"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jbw-Mm-nzk">
+                    <rect key="frame" x="124" y="302" width="127" height="30"/>
+                    <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="O6V-vn-lsU"/>
+                        <constraint firstAttribute="width" constant="127" id="xg1-ol-M4u"/>
+                    </constraints>
+                    <state key="normal" title="批量插入数据2">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="insertDataWithOutTransction:" destination="-1" eventType="touchUpInside" id="crY-Pm-Qfd"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ebV-nh-cgl">
+                    <rect key="frame" x="41" y="575" width="60" height="30"/>
+                    <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="iCo-sY-gaP"/>
+                        <constraint firstAttribute="width" constant="60" id="nxK-K7-oPU"/>
+                    </constraints>
+                    <state key="normal" title="删表">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="delete:" destination="-1" eventType="touchUpInside" id="bGQ-Oj-4w9"/>
+                        <action selector="deleteTable:" destination="-1" eventType="touchUpInside" id="pjt-86-kBA"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Et9-gh-npU">
+                    <rect key="frame" x="254" y="575" width="60" height="30"/>
+                    <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="G7a-LD-E0y"/>
+                        <constraint firstAttribute="width" constant="60" id="mIj-90-Vhz"/>
+                    </constraints>
+                    <state key="normal" title="清空">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="clearTable:" destination="-1" eventType="touchUpInside" id="YQ4-C3-qpj"/>
+                        <action selector="delete:" destination="-1" eventType="touchUpInside" id="Mau-B6-uzC"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="MYs-ha-dQ2" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="59" id="30F-Ie-Bhx"/>
+                <constraint firstItem="jbw-Mm-nzk" firstAttribute="top" secondItem="hVk-Jf-I8g" secondAttribute="bottom" constant="14" id="BpA-k2-Y8l"/>
+                <constraint firstItem="hVk-Jf-I8g" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="ESa-zZ-o72"/>
+                <constraint firstItem="MYs-ha-dQ2" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="61" id="QWb-v6-1Uu"/>
+                <constraint firstItem="hVk-Jf-I8g" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="238" id="Qc7-bs-ONK"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="Et9-gh-npU" secondAttribute="trailing" constant="61" id="Tnl-vL-F4I"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="EzX-Wi-QPJ" secondAttribute="trailing" constant="61" id="ai4-Ub-CRG"/>
+                <constraint firstItem="sIj-xJ-eWB" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="bld-lr-dWg"/>
+                <constraint firstItem="jbw-Mm-nzk" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="cig-AQ-xj5"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="0DH-cd-XzT" secondAttribute="trailing" constant="61" id="fnX-I5-sEn"/>
+                <constraint firstItem="ebV-nh-cgl" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="41" id="gxs-lg-FKx"/>
+                <constraint firstItem="Fdz-EV-hPc" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="61" id="hJf-fX-gdM"/>
+                <constraint firstItem="sIj-xJ-eWB" firstAttribute="top" secondItem="jbw-Mm-nzk" secondAttribute="bottom" constant="18" id="nhd-12-qqv"/>
+                <constraint firstItem="EzX-Wi-QPJ" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="59" id="oG8-2k-BmE"/>
+                <constraint firstItem="0DH-cd-XzT" firstAttribute="top" secondItem="EzX-Wi-QPJ" secondAttribute="bottom" constant="57" id="pSh-ab-cMi"/>
+                <constraint firstItem="Fdz-EV-hPc" firstAttribute="top" secondItem="MYs-ha-dQ2" secondAttribute="bottom" constant="57" id="rgL-ou-n7d"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" secondItem="ebV-nh-cgl" secondAttribute="bottom" constant="62" id="xnx-uX-7YR"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" secondItem="Et9-gh-npU" secondAttribute="bottom" constant="62" id="yH2-P4-Ax8"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="263" y="23"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HHUserPrivacyView">
+            <rect key="frame" x="0.0" y="0.0" width="267" height="300"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="用户隐私政策概要" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h25-R4-xBH">
+                    <rect key="frame" x="61" y="9" width="145" height="28"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="145" id="Rjx-OY-UOv"/>
+                        <constraint firstAttribute="height" constant="28" id="WJO-Ww-ezv"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="你可以查看完整版" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mHh-HL-Q1t">
+                    <rect key="frame" x="69" y="233" width="99" height="15"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="99" id="0TY-Uc-2m3"/>
+                        <constraint firstAttribute="height" constant="15" id="jJk-qi-eoO"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d72-Ug-nix">
+                    <rect key="frame" x="168" y="227" width="50" height="27"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="MoY-E4-pZW"/>
+                        <constraint firstAttribute="height" constant="27" id="vxO-RT-rd8"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <state key="normal" title="隐私政策">
+                        <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WFy-2m-RGC">
+                    <rect key="frame" x="0.0" y="256" width="133.5" height="44"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="不同意">
+                        <color key="titleColor" red="0.26274509800000001" green="0.26274509800000001" blue="0.26274509800000001" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ui1-sC-0KZ">
+                    <rect key="frame" x="133.5" y="256" width="133.5" height="44"/>
+                    <color key="backgroundColor" red="0.66274509800000003" green="0.66274509800000003" blue="0.66274509800000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="mXU-ox-bsC"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="同意">
+                        <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                </button>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="IUA-sx-hX4">
+                    <rect key="frame" x="0.0" y="45" width="267" height="180"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="180" id="rY1-OF-08U"/>
+                    </constraints>
+                    <string key="text">本《隐私政策》将向你说明:
+1. 为帮助你浏览推荐，发布信息，直播互动，交流沟通，注册认证，我们会手机您部分必要信息。
+2. 未提供上述服务，我们可能会收集联络方式，位置音视频，通讯录等敏感信息，您有权拒绝或者撤回授权。
+3. 未经您的同意，我们不会从第三方获取或者提供您的信息。
+4. 您可以访问，更新，删除您的个人信息，我们也将提供注销，投诉方式。
+如果您点击不同意，我们将仅手机浏览推荐所必须的信息，但发布视频，直播互动，交流沟通等功能可能会受到影响。</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="WFy-2m-RGC" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="27u-KY-rca"/>
+                <constraint firstItem="h25-R4-xBH" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Hu6-F9-tfR"/>
+                <constraint firstItem="ui1-sC-0KZ" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="NWi-5y-HbQ"/>
+                <constraint firstItem="mHh-HL-Q1t" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" constant="-15" id="Nca-Ml-sHl"/>
+                <constraint firstItem="h25-R4-xBH" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="9" id="Q0T-aw-R5z"/>
+                <constraint firstItem="d72-Ug-nix" firstAttribute="leading" secondItem="mHh-HL-Q1t" secondAttribute="trailing" id="RwN-i9-bvr"/>
+                <constraint firstItem="mHh-HL-Q1t" firstAttribute="top" secondItem="IUA-sx-hX4" secondAttribute="bottom" constant="8" id="Sf3-Kg-pGx"/>
+                <constraint firstItem="ui1-sC-0KZ" firstAttribute="leading" secondItem="WFy-2m-RGC" secondAttribute="trailing" id="V0S-bw-NcB"/>
+                <constraint firstItem="IUA-sx-hX4" firstAttribute="top" secondItem="h25-R4-xBH" secondAttribute="bottom" constant="8" id="Yrf-D5-03Y"/>
+                <constraint firstAttribute="trailing" secondItem="ui1-sC-0KZ" secondAttribute="trailing" id="cif-Zg-mkw"/>
+                <constraint firstItem="WFy-2m-RGC" firstAttribute="top" secondItem="mHh-HL-Q1t" secondAttribute="bottom" constant="8" id="cpl-DR-Tqv"/>
+                <constraint firstItem="d72-Ug-nix" firstAttribute="top" secondItem="IUA-sx-hX4" secondAttribute="bottom" constant="2" id="eMz-fd-u0i"/>
+                <constraint firstItem="IUA-sx-hX4" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="mZH-VA-kYK"/>
+                <constraint firstItem="WFy-2m-RGC" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="pG4-wq-giC"/>
+                <constraint firstItem="ui1-sC-0KZ" firstAttribute="top" secondItem="d72-Ug-nix" secondAttribute="bottom" constant="2" id="qu0-lF-Bo3"/>
+                <constraint firstItem="ui1-sC-0KZ" firstAttribute="width" secondItem="WFy-2m-RGC" secondAttribute="width" id="smT-bZ-FPr"/>
+                <constraint firstItem="IUA-sx-hX4" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="vG3-he-3GB"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="-24.800000000000001" y="-447.97601199400304"/>
+        </view>
+    </objects>
+</document>

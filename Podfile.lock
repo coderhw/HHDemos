@@ -1,0 +1,84 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - BOString (0.10.1)
+  - BZRuntime (1.0.5)
+  - CocoaAsyncSocket (7.6.2)
+  - FLEX (2.4.0)
+  - FMDB (2.7.2):
+    - FMDB/standard (= 2.7.2)
+  - FMDB/standard (2.7.2)
+  - IQKeyboardManager (5.0.7)
+  - Masonry (1.1.0)
+  - MJRefresh (3.1.15.7)
+  - RuntimeHelpers (0.0.4)
+  - SDWebImage (4.2.2):
+    - SDWebImage/Core (= 4.2.2)
+  - SDWebImage/Core (4.2.2)
+  - WebViewJavascriptBridge (6.0.3)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.1.0)
+  - BOString (~> 0.10.1)
+  - BZRuntime (~> 1.0.5)
+  - CocoaAsyncSocket (~> 7.6.2)
+  - FLEX (~> 2.4.0)
+  - FMDB (~> 2.7.2)
+  - IQKeyboardManager (~> 5.0.2)
+  - Masonry
+  - MJRefresh (~> 3.1.12)
+  - RuntimeHelpers (~> 0.0.4)
+  - SDWebImage (~> 4.2.2)
+  - WebViewJavascriptBridge (~> 6.0.3)
+  - YYKit (~> 1.0.9)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+    - BOString
+    - BZRuntime
+    - CocoaAsyncSocket
+    - FLEX
+    - FMDB
+    - IQKeyboardManager
+    - Masonry
+    - MJRefresh
+    - RuntimeHelpers
+    - SDWebImage
+    - WebViewJavascriptBridge
+    - YYKit
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  BOString: dd7bab05eac29080daecdf2d8fa7556fa24099b8
+  BZRuntime: fa585da7f0c2e478591bc2c57038c7ac23f46b4f
+  CocoaAsyncSocket: 3541e024f48c54b251638ef72d51dd42808de932
+  FLEX: bd1a39e55b56bb413b6f1b34b3c10a0dc44ef079
+  FMDB: 6198a90e7b6900cfc046e6bc0ef6ebb7be9236aa
+  IQKeyboardManager: 0bfa4607d39924116b5c0c8b55b5d789288b5cba
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
+  RuntimeHelpers: 856ae359f0fa5d41996e144b16b65801911eb672
+  SDWebImage: 89a9d32cd520bbb46eb14e541d5109b3564af198
+  WebViewJavascriptBridge: 7f5bc4d3581e672e8f32bd0f812d54bc69bb8e29
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+
+PODFILE CHECKSUM: 46df155bf32b8539c65ff582653bd6ddf5f1cdf6
+
+COCOAPODS: 1.8.4

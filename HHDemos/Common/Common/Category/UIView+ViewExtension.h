@@ -1,0 +1,24 @@
+//
+//  UIView+pgqViewExtension.h
+//  Category
+//
+//  Created by ios on 16/7/11.
+//  Copyright © 2016年 PQ. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface UIView (ViewExtension)
+@property (nonatomic, assign) CGFloat x;
+@property (nonatomic, assign) CGFloat y;
+@property (nonatomic, assign) CGFloat centerX;
+@property (nonatomic, assign) CGFloat centerY;
+@property (nonatomic, assign) CGFloat width;
+@property (nonatomic, assign) CGFloat height;
+@property (nonatomic, assign) CGSize size;
+@property (nonatomic, assign) CGPoint origin;
+
+@property (nonatomic, assign) CGFloat height_Y;
+@property (nonatomic, assign) CGFloat width_X;
+
+@end

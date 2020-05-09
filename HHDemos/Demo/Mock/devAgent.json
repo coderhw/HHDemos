@@ -1,0 +1,16 @@
+{
+  "code": 0,
+  "data": [
+    {
+      "consultantID": "string",
+      "consultantName": "string",
+      "consultantPhone": "string",
+      "devAgentTotal": 0,
+      "isSelf": 0,
+      "recClientTotal": 0,
+      "teamName": "string"
+    }
+  ],
+  "msg": "string",
+  "traceId": "string"
+}

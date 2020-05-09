@@ -1,0 +1,47 @@
+    <!doctype html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, target-densitydpi=device-dpi"/>
+        <title>JSCallOC</title>
+
+        <script type="text/javascript">
+
+
+        </script>
+
+    </head>
+
+    <body style="background:#CDE; color:#FFF">
+
+    <div>
+        <font size="3" color="black"> <b id="result"> </b> </font>
+    </div>
+    <br/>
+
+    <div id="div-a">
+        <center>
+
+            <br/>
+                <input type="button" value="带2个入参的方法测试" onclick="Native.testMethodWithParam1Param2('param1_value','param2_value');" />
+            <br/>
+            <br/>
+                <input type="button" value="带2个入参的方法测试2" onclick="Native.testMethod(11111,'22222');" />
+            <br/>
+            <br/>
+                <input type="button" value="参数为数组的方法测试" onclick="Native.testArray([11111,'22222']);" />
+            <br/>
+            <br/>
+                <input type="button" value="带一个参数的方法测试" onclick="Native.testString('13928460216')" />
+            <br/>
+            <br/>
+            <input type="button" value="测试在HTML页面显示数据的" onclick="Native.testShowTextOnHtml('1234');" />
+            <br/>
+            <br/>
+            <br/>
+
+        </center>
+    </div>
+    </body>
+
+    </html>

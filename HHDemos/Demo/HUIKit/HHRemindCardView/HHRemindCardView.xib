@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HHRemindCardView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="153"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="提示" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5XN-Pi-42a">
+                    <rect key="frame" x="171" y="15" width="33" height="17"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="17" id="DdA-r8-zQt"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="您尚未绑定银行卡，为了享受更多经纪人权益，请尽快完成银行卡绑定。" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OZ6-Zp-eCV">
+                    <rect key="frame" x="47" y="50" width="269" height="53"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="53" id="AP2-ob-Rgv"/>
+                        <constraint firstAttribute="width" constant="269" id="gh3-cF-wMu"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FO7-8S-sxo" userLabel="Line1">
+                    <rect key="frame" x="0.0" y="122" width="375" height="0.5"/>
+                    <color key="backgroundColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="0.5" id="4UZ-hO-nMz"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="89e-fB-MSj" userLabel="Line2">
+                    <rect key="frame" x="187.5" y="122" width="0.5" height="31"/>
+                    <color key="backgroundColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="0.5" id="yse-wP-ShQ"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dM2-fd-pRZ">
+                    <rect key="frame" x="0.0" y="122.5" width="187.5" height="30.5"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" title="取消">
+                        <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="764-n9-2Vs">
+                    <rect key="frame" x="188" y="122.5" width="187" height="30.5"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" title="去绑卡">
+                        <color key="titleColor" red="0.98431372549999996" green="0.2666666667" blue="0.29411764709999999" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="5XN-Pi-42a" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="96E-VW-PxT"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="dM2-fd-pRZ" secondAttribute="bottom" id="9cW-9W-o9Z"/>
+                <constraint firstItem="89e-fB-MSj" firstAttribute="leading" secondItem="dM2-fd-pRZ" secondAttribute="trailing" id="AXX-Sb-RBW"/>
+                <constraint firstItem="FO7-8S-sxo" firstAttribute="top" secondItem="OZ6-Zp-eCV" secondAttribute="bottom" constant="19" id="CPG-P8-yqs"/>
+                <constraint firstItem="89e-fB-MSj" firstAttribute="top" secondItem="OZ6-Zp-eCV" secondAttribute="bottom" constant="19" id="GIP-xv-7nr"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="89e-fB-MSj" secondAttribute="bottom" id="JsA-dG-1YT"/>
+                <constraint firstAttribute="trailing" secondItem="FO7-8S-sxo" secondAttribute="trailing" id="Kcc-tQ-j2b"/>
+                <constraint firstItem="dM2-fd-pRZ" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="LV0-vh-DmC"/>
+                <constraint firstItem="764-n9-2Vs" firstAttribute="leading" secondItem="89e-fB-MSj" secondAttribute="trailing" id="OKN-Mw-Sl6"/>
+                <constraint firstItem="dM2-fd-pRZ" firstAttribute="top" secondItem="FO7-8S-sxo" secondAttribute="bottom" id="T42-ki-Pvb"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="764-n9-2Vs" secondAttribute="bottom" id="aOt-eN-GIc"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="764-n9-2Vs" secondAttribute="trailing" id="baJ-gb-PD3"/>
+                <constraint firstItem="OZ6-Zp-eCV" firstAttribute="top" secondItem="5XN-Pi-42a" secondAttribute="bottom" constant="18" id="fFV-eZ-dSE"/>
+                <constraint firstItem="764-n9-2Vs" firstAttribute="top" secondItem="FO7-8S-sxo" secondAttribute="bottom" id="gZO-8t-1sh"/>
+                <constraint firstItem="OZ6-Zp-eCV" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" constant="-6" id="pXi-aY-qjE"/>
+                <constraint firstItem="FO7-8S-sxo" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="t3X-AJ-f9l"/>
+                <constraint firstItem="89e-fB-MSj" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="wiM-p7-lPn"/>
+                <constraint firstItem="5XN-Pi-42a" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="15" id="wwj-77-Icp"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="-279.19999999999999" y="-200.14992503748127"/>
+        </view>
+    </objects>
+</document>
