@@ -1,0 +1,5 @@
+Pods
+*.xcuserstate
+UserInterfaceState.xcuserstate
+.DS_Store
+xcuserdata
