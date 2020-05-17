@@ -13,6 +13,8 @@
 #import "HHRemindCardView.h"
 #import "UIViewController+Extension.h"
 #import "HHPickView.h"
+#import "MView.h"
+
 
 @interface HHUIViewController ()
 
@@ -81,6 +83,23 @@
     
     HHPickView *pickView = [HHPickView pickView];
     [self.view addSubview:pickView];
+}
+
+- (IBAction)MViewPressed:(UIButton *)sender {
+    
+    MView *mView = [MView mView];
+    [mView show];
+    
+//    [[UIApplication sharedApplication].keyWindow addSubview:mView];
+//    [mView mas_makeConstraints:^(MASConstraintMaker *make) {
+//
+//        make.width.equalTo(@260);
+//        make.height.equalTo(@120);
+//        make.center.equalTo(mView.superview);
+//    }];
+    
+    
+    
 }
 
 #pragma mark -

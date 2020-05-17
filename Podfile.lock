@@ -29,9 +29,6 @@ PODS:
     - SDWebImage/Core (= 4.2.2)
   - SDWebImage/Core (4.2.2)
   - WebViewJavascriptBridge (6.0.3)
-  - YYKit (1.0.9):
-    - YYKit/no-arc (= 1.0.9)
-  - YYKit/no-arc (1.0.9)
 
 DEPENDENCIES:
   - AFNetworking (~> 3.1.0)
@@ -46,10 +43,9 @@ DEPENDENCIES:
   - RuntimeHelpers (~> 0.0.4)
   - SDWebImage (~> 4.2.2)
   - WebViewJavascriptBridge (~> 6.0.3)
-  - YYKit (~> 1.0.9)
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  https://github.com/cocoapods/specs.git:
     - AFNetworking
     - BOString
     - BZRuntime
@@ -62,7 +58,6 @@ SPEC REPOS:
     - RuntimeHelpers
     - SDWebImage
     - WebViewJavascriptBridge
-    - YYKit
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
@@ -77,8 +72,7 @@ SPEC CHECKSUMS:
   RuntimeHelpers: 856ae359f0fa5d41996e144b16b65801911eb672
   SDWebImage: 89a9d32cd520bbb46eb14e541d5109b3564af198
   WebViewJavascriptBridge: 7f5bc4d3581e672e8f32bd0f812d54bc69bb8e29
-  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: 46df155bf32b8539c65ff582653bd6ddf5f1cdf6
+PODFILE CHECKSUM: 9858ed55692643423318d75c422751335735d324
 
-COCOAPODS: 1.8.4
+COCOAPODS: 1.7.5

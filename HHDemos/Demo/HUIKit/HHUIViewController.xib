@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -21,7 +19,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f8q-BP-IqL">
-                    <rect key="frame" x="22" y="20" width="119" height="38"/>
+                    <rect key="frame" x="22" y="0.0" width="119" height="38"/>
                     <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="119" id="3UJ-fF-uie"/>
@@ -35,7 +33,7 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9nU-K7-FmQ">
-                    <rect key="frame" x="225" y="20" width="119" height="38"/>
+                    <rect key="frame" x="225" y="0.0" width="119" height="38"/>
                     <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="119" id="2dL-js-H3E"/>
@@ -49,7 +47,7 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eky-mn-ryg">
-                    <rect key="frame" x="22" y="73" width="119" height="38"/>
+                    <rect key="frame" x="22" y="53" width="119" height="38"/>
                     <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="119" id="8Xv-lr-WbT"/>
@@ -63,7 +61,7 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eL8-Fo-U7y">
-                    <rect key="frame" x="225" y="73" width="119" height="38"/>
+                    <rect key="frame" x="225" y="53" width="119" height="38"/>
                     <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="119" id="7nd-oA-fUK"/>
@@ -78,7 +76,7 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="biM-fg-sNg">
-                    <rect key="frame" x="22" y="134" width="119" height="38"/>
+                    <rect key="frame" x="22" y="114" width="119" height="38"/>
                     <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="119" id="4ng-bH-ifg"/>
@@ -92,7 +90,7 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Db-PK-OtR">
-                    <rect key="frame" x="225" y="134" width="119" height="38"/>
+                    <rect key="frame" x="225" y="114" width="119" height="38"/>
                     <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="38" id="Wyi-Ud-gYO"/>
@@ -106,7 +104,7 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZsW-bJ-d4q">
-                    <rect key="frame" x="22" y="193" width="119" height="38"/>
+                    <rect key="frame" x="22" y="173" width="119" height="38"/>
                     <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="38" id="fye-rr-Zzq"/>
@@ -119,6 +117,20 @@
                         <action selector="pickView:" destination="-1" eventType="touchUpInside" id="nxU-f1-FwN"/>
                     </connections>
                 </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q6g-mx-7Dr">
+                    <rect key="frame" x="225" y="173" width="119" height="38"/>
+                    <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="119" id="7VS-ni-j7g"/>
+                        <constraint firstAttribute="height" constant="38" id="Yre-kW-llT"/>
+                    </constraints>
+                    <state key="normal" title="MView">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="MViewPressed:" destination="-1" eventType="touchUpInside" id="Fnb-fM-tJq"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
@@ -128,8 +140,10 @@
                 <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="6Db-PK-OtR" secondAttribute="trailing" constant="31" id="Gdw-kY-Ad6"/>
                 <constraint firstItem="eL8-Fo-U7y" firstAttribute="top" secondItem="9nU-K7-FmQ" secondAttribute="bottom" constant="15" id="JAz-b6-cwC"/>
                 <constraint firstItem="9nU-K7-FmQ" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" id="LIF-yZ-4He"/>
+                <constraint firstItem="q6g-mx-7Dr" firstAttribute="top" secondItem="6Db-PK-OtR" secondAttribute="bottom" constant="21" id="N6K-pb-t4e"/>
                 <constraint firstItem="Eky-mn-ryg" firstAttribute="top" secondItem="f8q-BP-IqL" secondAttribute="bottom" constant="15" id="T7g-a1-PPu"/>
                 <constraint firstItem="f8q-BP-IqL" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="22" id="cSz-FX-fEB"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="q6g-mx-7Dr" secondAttribute="trailing" constant="31" id="d9e-0U-oPS"/>
                 <constraint firstItem="6Db-PK-OtR" firstAttribute="top" secondItem="eL8-Fo-U7y" secondAttribute="bottom" constant="23" id="fab-qf-QLH"/>
                 <constraint firstItem="Eky-mn-ryg" firstAttribute="leading" secondItem="f8q-BP-IqL" secondAttribute="leading" id="jRG-kB-U2g"/>
                 <constraint firstItem="f8q-BP-IqL" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" id="nP1-Hc-IwT"/>
@@ -138,7 +152,7 @@
                 <constraint firstItem="biM-fg-sNg" firstAttribute="top" secondItem="Eky-mn-ryg" secondAttribute="bottom" constant="23" id="qqm-RT-ULo"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
-            <point key="canvasLocation" x="-369" y="-193"/>
+            <point key="canvasLocation" x="218" y="-278"/>
         </view>
     </objects>
 </document>

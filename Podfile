@@ -12,7 +12,6 @@ target 'HHDemos' do
   pod 'SDWebImage', '~> 4.2.2'
   pod 'WebViewJavascriptBridge', '~> 6.0.3'
   pod 'IQKeyboardManager','~> 5.0.2'
-  pod 'YYKit', '~> 1.0.9'
   pod 'WebViewJavascriptBridge', '~> 6.0.3'
   pod 'CocoaAsyncSocket', '~> 7.6.2'
   pod 'FMDB', '~> 2.7.2'
@@ -20,4 +19,5 @@ target 'HHDemos' do
   pod 'BOString', '~> 0.10.1'
   pod 'Masonry'
   pod 'MJRefresh', '~> 3.1.12'
+  pod 'YYKit'
 end
