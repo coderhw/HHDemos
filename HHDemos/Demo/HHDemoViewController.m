@@ -9,7 +9,6 @@
 #import "HHDemoViewController.h"
 #import "HHBaseViewController.h"
 #import "HHBaseNavigationController.h"
-
 //Runtime
 #import "HHRuntimeViewController.h"
 //Contact
@@ -51,6 +50,7 @@
 @property (nonatomic, strong) UITableView       *tableView;
 @property (nonatomic, strong) NSArray           *demoLists;
 @property (nonatomic, strong) NSMutableArray    *dataSources;
+
 @end
 
 @implementation HHDemoViewController
@@ -58,6 +58,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    
+    int a = 99;
+    NSLog(@"a:%d", a);
+    
+    id obj = [[NSObject alloc] init];
+//    [obj run];
+    NSLog(@"obj:%@", obj);
     
     self.view.backgroundColor = [UIColor whiteColor];
     self.navigationItem.title = @"List";
@@ -70,8 +77,14 @@
     
     //UI
     [self initializeConstraints];
+    NSLog(@"viewDidLoad");
 }
 
+
+- (void)viewWillLayoutSubviews {
+    [super viewWillLayoutSubviews];
+    NSLog(@"viewWillLayoutSubviews");
+}
 - (void)initializeConstraints {
     
     [self.tableView mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -89,7 +102,25 @@
          }
          make.left.and.right.equalTo(self.view);
     }];
+
+//    [self readLocalFile:@"" resultCallback:^(BOOL success, NSError *error) {
+//
+//    }];
+    
 }
+
+
+- (void)readLocalFileWithPath:(NSString *)localPath resuleCallback:(void (^)(BOOL success, NSError *error))callBack {
+    
+}
+
+- (void)readLocalFile:(NSString *)localPath resultCallBack:(void(^)(BOOL success, NSError *error))callBack {
+    
+}
+
+//- (void)readLocalFile:(NSString *)localPath resultCallback:(void(^)(BOOL success, NSError *error))callback {
+//
+//}
 
 #pragma mark - UITableView Delegate
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {return self.dataSources.count;}

@@ -15,8 +15,7 @@
 @implementation MView
 
 + (instancetype)mView {
-    return [[[NSBundle mainBundle] loadNibNamed:@"MView"owner:nil
-    options:nil] firstObject];
+    return [[[NSBundle mainBundle] loadNibNamed:@"MView"owner:nil options:nil] firstObject];
 }
 
 - (void)awakeFromNib {

@@ -16,10 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    CFSocketRef _socket;
-    
-
-
+    //CFSocketRef _socket;
 }
 
 

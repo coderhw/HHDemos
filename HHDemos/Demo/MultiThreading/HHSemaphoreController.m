@@ -25,7 +25,12 @@ dispatch_semaphore_wait(signalSemaphore, DISPATCH_TIME_FOREVER);
 dispatch_semaphore_signal(signalSemaphore);
 
 @interface HHSemaphoreController ()
+
 @property (weak, nonatomic) IBOutlet UIImageView *testImageVeiw1;
+@property (nonatomic, strong) dispatch_semaphore_t mainSemaphore;
+
+@property (nonatomic, assign) dispatch_time_t timeWait;
+
 
 @end
 
@@ -53,8 +58,9 @@ dispatch_semaphore_signal(signalSemaphore);
     dispatch_group_t group = dispatch_group_create();
     dispatch_semaphore_t semaphore = dispatch_semaphore_create(10);
     dispatch_queue_t queue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
-    for (int i = 0; i < 100; i++)
-    {
+    
+    for (int i = 0; i < 100; i++) {
+        
         dispatch_semaphore_wait(semaphore, DISPATCH_TIME_FOREVER);// -1
         dispatch_group_async(group, queue, ^{
             NSLog(@"%i",i);
@@ -67,12 +73,17 @@ dispatch_semaphore_signal(signalSemaphore);
 
 - (void)downLoadImage {
     
-    NSURL *url = [NSURL URLWithString:@"https://cdnzhike.XXXXX.com/test1/images/item/090d63fa-9a56-aac7-9d29-43a3cf0c4202.jpg"];
+    NSURL *url = [NSURL URLWithString:@"https://cdnzhike.vanke.com/test1/images/item/090d63fa-9a56-aac7-9d29-43a3cf0c4202.jpg"];
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
     NSURLSession *session = [NSURLSession sharedSession];
-    NSURLSessionTask *task = [session downloadTaskWithRequest:request completionHandler:^(NSURL * _Nullable location, NSURLResponse * _Nullable response, NSError * _Nullable error) {
-        
-        [self.testImageVeiw1 sd_setImageWithURL:location];
+    NSURLSessionTask *task = [session downloadTaskWithRequest:request completionHandler:^(NSURL * _Nullable location,
+                                                                                          NSURLResponse * _Nullable response,
+                                                                                          NSError * _Nullable error) {
+        if(!error){
+            [self.testImageVeiw1 sd_setImageWithURL:location];
+        }else{
+            NSLog(@"error:%@", error.localizedDescription);
+        }
     }];
     [task resume];
     
@@ -97,6 +108,7 @@ dispatch_semaphore_signal(signalSemaphore);
         NSLog(@"任务2完成");
     });
 }
+
 - (IBAction)semaphoreButton3Pressed:(id)sender {
     
     HHExtensionSemaphoreCreate(1)
@@ -104,7 +116,6 @@ dispatch_semaphore_signal(signalSemaphore);
     NSLog(@"semaphoreButton3Pressed");
     HHExtensionSemaphoreSignal
 }
-
 
 - (IBAction)dispatchGroup:(id)sender {
     
@@ -119,14 +130,48 @@ dispatch_semaphore_signal(signalSemaphore);
     dispatch_group_notify(group, concurrentQueue, ^{
         NSLog(@"begin task three! %@",[NSThread currentThread]);
     });
-    
-    
 }
 
 
 
-- (void)phread {
+//利用信号量阻塞进程
+- (IBAction)semaphoreAPressed:(id)sender {
+    
+    //https://www.cnblogs.com/snailhl/p/3906112.html
+    self.timeWait = dispatch_time(DISPATCH_TIME_NOW, 5ull*NSEC_PER_SEC);
+    int runTime = 1000;
+    dispatch_queue_t queue = dispatch_queue_create("com.Pingan.Queue", DISPATCH_QUEUE_CONCURRENT);
+    dispatch_async(queue, ^{
+        dispatch_semaphore_wait(self.mainSemaphore, DISPATCH_TIME_FOREVER);
+        NSLog(@"runTime:%d", runTime);
+        NSLog(@"runTime:%d", runTime);
+    });
     
 }
+
+- (IBAction)modifySemphoreA:(id)sender {
+    dispatch_semaphore_signal(self.mainSemaphore);
+}
+
+- (IBAction)semphoreBPressed:(id)sender {
+    int runTime = 1000;
+    self.timeWait = dispatch_time(DISPATCH_TIME_NOW, 2ull*NSEC_PER_SEC);
+    //阻塞2秒
+    dispatch_semaphore_wait(self.mainSemaphore, self.timeWait);
+    
+    NSLog(@"runTime:%d", runTime);
+    NSLog(@"runTime:%d", runTime);
+}
+
+
+
+#pragma mark - Getter Methods
+- (dispatch_semaphore_t)mainSemaphore{
+    if (!_mainSemaphore) {
+        _mainSemaphore = dispatch_semaphore_create(0);
+    }
+    return _mainSemaphore;
+}
+
 
 @end

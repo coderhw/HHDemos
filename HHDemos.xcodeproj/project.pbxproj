@@ -875,7 +875,7 @@
 				6459BE11203FE01600BF9FD6 /* Base Demo */,
 				6459BE0D203FC8F900BF9FD6 /* MultiThreading */,
 				64A7955F201B2B750091B760 /* NSURLProtocol */,
-				64C2E3DA1FF9DE21006B55F1 /* OCR识别 */,
+				64C2E3DA1FF9DE21006B55F1 /* OCR */,
 				64BE16A11F9DC68900DBB7BC /* QRCode */,
 				64BE167C1F9D8BEB00DBB7BC /* Image */,
 				6427F2F41F98805700B4DFC1 /* Runtime */,
@@ -976,13 +976,13 @@
 			path = CollectionView;
 			sourceTree = "<group>";
 		};
-		64C2E3DA1FF9DE21006B55F1 /* OCR识别 */ = {
+		64C2E3DA1FF9DE21006B55F1 /* OCR */ = {
 			isa = PBXGroup;
 			children = (
 				64C2E3DB1FF9DEC4006B55F1 /* VKImageOCR.h */,
 				64C2E3DC1FF9DEC4006B55F1 /* VKImageOCR.m */,
 			);
-			path = "OCR识别";
+			path = OCR;
 			sourceTree = "<group>";
 		};
 		64D85939218B42F300903C1B /* AutoLayout */ = {
