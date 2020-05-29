@@ -7,21 +7,21 @@
 //
 
 #import "HHDemoViewController.h"
+//Base
 #import "HHBaseViewController.h"
 #import "HHBaseNavigationController.h"
 //Runtime
 #import "HHRuntimeViewController.h"
 //Contact
 #import "HHContactViewController.h"
-
 #import "TTSecondViewController.h"
 #import "TTThreeViewController.h"
 //Render
 #import "HHRenderContextController.h"
 //QR
 #import "TTQRViewControler.h"
-//Semaphore
-#import "HHSemaphoreController.h"
+//Concurrence Control
+#import "HHMutiThreadController.h"
 //Hybird
 #import "HHBaseWebViewController.h"
 #import "HHWebViewTestController.h"
@@ -34,16 +34,14 @@
 //DB
 #import "HHDBViewController.h"
 //Xib
-#import "HHXibViewController.h"
+#import "HHFunctionViewController.h"
 #import "HHUserPrivacyView.h"
 //web
 #import "HHWebViewController.h"
 //Layout
 #import "HHLayoutController.h"
-
 //RunLoop
 #import "HHRunLoopViewController.h"
-
 
 @interface HHDemoViewController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -70,9 +68,9 @@
     self.navigationItem.title = @"List";
     
     self.demoLists = @[@"运行时Demo",@"通讯录",@"基类控制器",@"图形处理",
-                       @"二维码",@"信号量",@"WebView",@"IQKeyBoard",
+                       @"二维码",@"并发控制",@"WebView",@"IQKeyBoard",
                        @"UIKit",@"CALayer",@"C",@"FMDB",
-                       @"Company",@"Cell自适应",@"Layout",@"RunLoop Demo"];
+                       @"Company",@"XIB Demos",@"Layout",@"RunLoop Demo"];
     self.dataSources = [NSMutableArray arrayWithArray:_demoLists];
     
     //UI
@@ -82,9 +80,11 @@
 
 
 - (void)viewWillLayoutSubviews {
+    
     [super viewWillLayoutSubviews];
     NSLog(@"viewWillLayoutSubviews");
 }
+
 - (void)initializeConstraints {
     
     [self.tableView mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -167,7 +167,7 @@
             break;
         case 5:
         {
-            viewContoller = [[HHSemaphoreController alloc] init];
+            viewContoller = [[HHMutiThreadController alloc] initWithNibName:@"HHMutiThreadController" bundle:nil];
         }
             break;
         case 6:
@@ -208,7 +208,7 @@
         }
         case 13:
         {
-            viewContoller = [[HHXibViewController alloc] initWithNibName:@"HHXibViewController" bundle:nil];
+            viewContoller = [[HHFunctionViewController alloc] initWithNibName:@"HHFunctionViewController" bundle:nil];
             break;
         }
         case 14:

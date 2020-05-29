@@ -140,7 +140,7 @@ dispatch_semaphore_signal(signalSemaphore);
     //https://www.cnblogs.com/snailhl/p/3906112.html
     self.timeWait = dispatch_time(DISPATCH_TIME_NOW, 5ull*NSEC_PER_SEC);
     int runTime = 1000;
-    dispatch_queue_t queue = dispatch_queue_create("com.Pingan.Queue", DISPATCH_QUEUE_CONCURRENT);
+    dispatch_queue_t queue = dispatch_queue_create("com.HH.Queue", DISPATCH_QUEUE_CONCURRENT);
     dispatch_async(queue, ^{
         dispatch_semaphore_wait(self.mainSemaphore, DISPATCH_TIME_FOREVER);
         NSLog(@"runTime:%d", runTime);
@@ -164,9 +164,8 @@ dispatch_semaphore_signal(signalSemaphore);
 }
 
 
-
 #pragma mark - Getter Methods
-- (dispatch_semaphore_t)mainSemaphore{
+- (dispatch_semaphore_t)mainSemaphore {
     if (!_mainSemaphore) {
         _mainSemaphore = dispatch_semaphore_create(0);
     }

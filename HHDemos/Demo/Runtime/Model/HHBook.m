@@ -14,8 +14,8 @@
     NSLog(@"--load");
 }
 
-+ (void)initialize
-{
++ (void)initialize {
+    
     if (self == [HHBook class]) {
         NSLog(@"HHBook initialize");
     }

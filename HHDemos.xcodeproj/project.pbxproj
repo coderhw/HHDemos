@@ -124,6 +124,14 @@
 		64FE39CD2466808000A8AC38 /* HHImagesUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FE39C82466808000A8AC38 /* HHImagesUtility.m */; };
 		64FE39CE2466808000A8AC38 /* HHCheckUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FE39C92466808000A8AC38 /* HHCheckUtility.m */; };
 		64FE39CF2466808000A8AC38 /* FCFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FE39CB2466808000A8AC38 /* FCFileManager.m */; };
+		C2D7CE10247768C000761AEA /* HHFunctionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D7CE0E247768C000761AEA /* HHFunctionViewController.m */; };
+		C2D7CE11247768C000761AEA /* HHFunctionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2D7CE0F247768C000761AEA /* HHFunctionViewController.xib */; };
+		C2D7CE152477B97600761AEA /* HHMutiThreadController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D7CE132477B97600761AEA /* HHMutiThreadController.m */; };
+		C2D7CE162477B97600761AEA /* HHMutiThreadController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2D7CE142477B97600761AEA /* HHMutiThreadController.xib */; };
+		C2D7CE1A2477BDD900761AEA /* HHConCurrenceController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D7CE182477BDD900761AEA /* HHConCurrenceController.m */; };
+		C2D7CE1B2477BDD900761AEA /* HHConCurrenceController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2D7CE192477BDD900761AEA /* HHConCurrenceController.xib */; };
+		C2D7CE222477D81600761AEA /* HHThreadCommunicationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D7CE202477D81600761AEA /* HHThreadCommunicationController.m */; };
+		C2D7CE232477D81600761AEA /* HHThreadCommunicationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2D7CE212477D81600761AEA /* HHThreadCommunicationController.xib */; };
 		F75DD5A3D7A28A0A7190F619 /* libPods-HHDemos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1C68D7502FEA07D8C48431D /* libPods-HHDemos.a */; };
 /* End PBXBuildFile section */
 
@@ -388,6 +396,18 @@
 		89DFF67A4EDF322DACD2E101 /* libPods-VKTeamsProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VKTeamsProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C7D6B19766EA2EAAD1FA379 /* Pods-HHDemos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HHDemos.release.xcconfig"; path = "Pods/Target Support Files/Pods-HHDemos/Pods-HHDemos.release.xcconfig"; sourceTree = "<group>"; };
 		B1C68D7502FEA07D8C48431D /* libPods-HHDemos.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HHDemos.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2D7CE0D247768C000761AEA /* HHFunctionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHFunctionViewController.h; sourceTree = "<group>"; };
+		C2D7CE0E247768C000761AEA /* HHFunctionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHFunctionViewController.m; sourceTree = "<group>"; };
+		C2D7CE0F247768C000761AEA /* HHFunctionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HHFunctionViewController.xib; sourceTree = "<group>"; };
+		C2D7CE122477B97600761AEA /* HHMutiThreadController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHMutiThreadController.h; sourceTree = "<group>"; };
+		C2D7CE132477B97600761AEA /* HHMutiThreadController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHMutiThreadController.m; sourceTree = "<group>"; };
+		C2D7CE142477B97600761AEA /* HHMutiThreadController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HHMutiThreadController.xib; sourceTree = "<group>"; };
+		C2D7CE172477BDD900761AEA /* HHConCurrenceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHConCurrenceController.h; sourceTree = "<group>"; };
+		C2D7CE182477BDD900761AEA /* HHConCurrenceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHConCurrenceController.m; sourceTree = "<group>"; };
+		C2D7CE192477BDD900761AEA /* HHConCurrenceController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HHConCurrenceController.xib; sourceTree = "<group>"; };
+		C2D7CE1F2477D81600761AEA /* HHThreadCommunicationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHThreadCommunicationController.h; sourceTree = "<group>"; };
+		C2D7CE202477D81600761AEA /* HHThreadCommunicationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHThreadCommunicationController.m; sourceTree = "<group>"; };
+		C2D7CE212477D81600761AEA /* HHThreadCommunicationController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HHThreadCommunicationController.xib; sourceTree = "<group>"; };
 		C5A14C744D52E6BAE083AD0E /* Pods-VKTeamsProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VKTeamsProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VKTeamsProject/Pods-VKTeamsProject.debug.xcconfig"; sourceTree = "<group>"; };
 		CED537142550D65844623761 /* Pods-HHDemos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HHDemos.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HHDemos/Pods-HHDemos.debug.xcconfig"; sourceTree = "<group>"; };
 		EEEA5590E23A90CC6809338B /* libPods-VKDemoProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VKDemoProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -657,14 +677,23 @@
 		6459BE0D203FC8F900BF9FD6 /* MultiThreading */ = {
 			isa = PBXGroup;
 			children = (
+				C2D7CE122477B97600761AEA /* HHMutiThreadController.h */,
+				C2D7CE132477B97600761AEA /* HHMutiThreadController.m */,
+				C2D7CE142477B97600761AEA /* HHMutiThreadController.xib */,
 				6459BE12203FFF1300BF9FD6 /* HHSemaphoreController.h */,
 				6459BE13203FFF1300BF9FD6 /* HHSemaphoreController.m */,
 				6459BE14203FFF1300BF9FD6 /* HHSemaphoreController.xib */,
+				C2D7CE172477BDD900761AEA /* HHConCurrenceController.h */,
+				C2D7CE182477BDD900761AEA /* HHConCurrenceController.m */,
+				C2D7CE192477BDD900761AEA /* HHConCurrenceController.xib */,
+				C2D7CE1F2477D81600761AEA /* HHThreadCommunicationController.h */,
+				C2D7CE202477D81600761AEA /* HHThreadCommunicationController.m */,
+				C2D7CE212477D81600761AEA /* HHThreadCommunicationController.xib */,
 			);
 			path = MultiThreading;
 			sourceTree = "<group>";
 		};
-		6459BE11203FE01600BF9FD6 /* Base Demo */ = {
+		6459BE11203FE01600BF9FD6 /* BaseDemo */ = {
 			isa = PBXGroup;
 			children = (
 				64F32ED61F98A104006EF69C /* TTSecondViewController.h */,
@@ -672,12 +701,15 @@
 				6408B1972463EFB700C9DFC9 /* TTThreeViewController.h */,
 				6408B1982463EFB700C9DFC9 /* TTThreeViewController.m */,
 			);
-			path = "Base Demo";
+			path = BaseDemo;
 			sourceTree = "<group>";
 		};
 		645AFCF120FA0F6500F94753 /* XIB */ = {
 			isa = PBXGroup;
 			children = (
+				C2D7CE0D247768C000761AEA /* HHFunctionViewController.h */,
+				C2D7CE0E247768C000761AEA /* HHFunctionViewController.m */,
+				C2D7CE0F247768C000761AEA /* HHFunctionViewController.xib */,
 				645AFCF220FA0FC900F94753 /* HHXibViewController.h */,
 				645AFCF320FA0FC900F94753 /* HHXibViewController.m */,
 				645AFCF420FA0FC900F94753 /* HHXibViewController.xib */,
@@ -872,7 +904,7 @@
 				64EC6B21207B71CE003FAE69 /* AVFoundation */,
 				64B3F199205FC399002F0E4F /* HUIKit */,
 				6427F2EB1F98800D00B4DFC1 /* Resource */,
-				6459BE11203FE01600BF9FD6 /* Base Demo */,
+				6459BE11203FE01600BF9FD6 /* BaseDemo */,
 				6459BE0D203FC8F900BF9FD6 /* MultiThreading */,
 				64A7955F201B2B750091B760 /* NSURLProtocol */,
 				64C2E3DA1FF9DE21006B55F1 /* OCR */,
@@ -1131,10 +1163,9 @@
 			};
 			buildConfigurationList = 64BC905A1F0CB705006FCEA2 /* Build configuration list for PBXProject "HHDemos" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
 				Base,
 			);
@@ -1159,14 +1190,17 @@
 				64B3F1A1205FDFC5002F0E4F /* HHUIViewController.xib in Resources */,
 				20B18E0A24718D510080AE43 /* MView.xib in Resources */,
 				648361E6207DBEC500373BFD /* HHCController.xib in Resources */,
+				C2D7CE162477B97600761AEA /* HHMutiThreadController.xib in Resources */,
 				648ADB10222EB8B800DA4B22 /* HHRunLoopViewController2.xib in Resources */,
 				648ADB0B222EB89800DA4B22 /* HHRunLoopViewController.xib in Resources */,
+				C2D7CE1B2477BDD900761AEA /* HHConCurrenceController.xib in Resources */,
 				64BC906F1F0CB705006FCEA2 /* Assets.xcassets in Resources */,
 				642F1AF62240BEDC0068A7FF /* HHLandScapeViewController.xib in Resources */,
 				64EEEEF221761A2C00A9AC92 /* devAgent.json in Resources */,
 				645AFCF620FA0FC900F94753 /* HHXibViewController.xib in Resources */,
 				646ADE2420452AB20008F6C2 /* HHBaseWebViewController.xib in Resources */,
 				645AFCFB20FA117100F94753 /* HHXibViewCell.xib in Resources */,
+				C2D7CE11247768C000761AEA /* HHFunctionViewController.xib in Resources */,
 				64AC206E2075DD4400693270 /* HHLayerController.xib in Resources */,
 				64BCB7A0222CC5CC00D5D652 /* HHRemindCardView.xib in Resources */,
 				6459BE16203FFF1300BF9FD6 /* HHSemaphoreController.xib in Resources */,
@@ -1174,6 +1208,7 @@
 				645C02D921D3D5B900CAC406 /* HHUserPrivacyView.xib in Resources */,
 				64EA9D252086E5DA0078D64A /* HHSocketController.xib in Resources */,
 				64BE16811F9D8C1F00DBB7BC /* HHRenderContextController.xib in Resources */,
+				C2D7CE232477D81600761AEA /* HHThreadCommunicationController.xib in Resources */,
 				64EC6B26207B71F9003FAE69 /* HHPlayerViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1236,6 +1271,7 @@
 				64CFA89E1FE0CFF500F02FC2 /* Teacher.m in Sources */,
 				64EA9D242086E5DA0078D64A /* HHSocketController.m in Sources */,
 				64B3F19C205FC3C7002F0E4F /* HHPullSelectView.m in Sources */,
+				C2D7CE10247768C000761AEA /* HHFunctionViewController.m in Sources */,
 				20B18E0824718D3B0080AE43 /* MView.m in Sources */,
 				64FE39CF2466808000A8AC38 /* FCFileManager.m in Sources */,
 				6498EDF12142184C00A1BEC0 /* HHDatabase.m in Sources */,
@@ -1276,6 +1312,7 @@
 				6427F3121F98829D00B4DFC1 /* NSMutableArray+Safe.m in Sources */,
 				64D85941218B639200903C1B /* HHDIYView.m in Sources */,
 				6427F3111F98829C00B4DFC1 /* NSDictionary+Safe.m in Sources */,
+				C2D7CE1A2477BDD900761AEA /* HHConCurrenceController.m in Sources */,
 				64B3F1A0205FDFC5002F0E4F /* HHUIViewController.m in Sources */,
 				64BCB79D222CC5B000D5D652 /* HHRemindCardView.m in Sources */,
 				6427F3101F98829A00B4DFC1 /* NSArray+Safe.m in Sources */,
@@ -1294,6 +1331,7 @@
 				642F1AF52240BEDC0068A7FF /* HHLandScapeViewController.m in Sources */,
 				6427F3091F98828700B4DFC1 /* NSDate+SSToolkitAdditions.m in Sources */,
 				6460D327211AE36F00F689EC /* HHParent.m in Sources */,
+				C2D7CE152477B97600761AEA /* HHMutiThreadController.m in Sources */,
 				64BE16BA1F9DC80600DBB7BC /* TTQRViewControler.m in Sources */,
 				64FE39CD2466808000A8AC38 /* HHImagesUtility.m in Sources */,
 				6427F3081F98828300B4DFC1 /* NSDate+Helper.m in Sources */,
@@ -1303,6 +1341,7 @@
 				6427F3051F98827B00B4DFC1 /* NSArray+Util.m in Sources */,
 				6427F3041F9881A500B4DFC1 /* UILabel+UILabel_Font.m in Sources */,
 				6427F3031F98819700B4DFC1 /* HHMsgSend.m in Sources */,
+				C2D7CE222477D81600761AEA /* HHThreadCommunicationController.m in Sources */,
 				6427F3021F98819500B4DFC1 /* HHPerson.m in Sources */,
 				6427F3011F98811400B4DFC1 /* HHRuntimeViewController.m in Sources */,
 				645AFCF520FA0FC900F94753 /* HHXibViewController.m in Sources */,
@@ -1441,7 +1480,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_ENTITLEMENTS = HHDemoProject/HHDemos.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Mobile Vanke (RD4YM268K9)";
 				DEVELOPMENT_TEAM = 3X97WNYE73;
 				ENABLE_BITCODE = NO;
@@ -1471,7 +1510,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_ENTITLEMENTS = HHDemoProject/HHDemos.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "";
 				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = NO;

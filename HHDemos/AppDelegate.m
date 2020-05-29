@@ -21,6 +21,12 @@
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     HHTabBarController  *rootVC = [[HHTabBarController alloc] init];
+    
+    BOOL flag1 = YES;
+    BOOL flag2 = YES;
+    BOOL resultFlag = flag1 ^ flag2;
+    NSLog(@"resultFlag:%d", resultFlag);
+    
     self.window.rootViewController = rootVC;
     [self.window makeKeyAndVisible];
     return YES;
