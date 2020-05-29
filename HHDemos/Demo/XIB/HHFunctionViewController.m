@@ -2,7 +2,7 @@
 //  HHFunctionViewController.m
 //  HHDemos
 //
-//  Created by 胡文(金服银行科技中心网点赋能开发团队平台组) on 2020/5/22.
+//  Created by Xxxx on 2020/5/22.
 //  Copyright © 2020 Evan. All rights reserved.
 //
 

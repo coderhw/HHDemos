@@ -154,8 +154,8 @@
     NSLog(@"currentThread---%@",[NSThread currentThread]);  // 打印当前线程
     NSLog(@"group---begin");
     dispatch_group_t group =  dispatch_group_create();
-    //dispatch_queue_t concurrentQueue = dispatch_queue_create("com.Pingan.Queue", DISPATCH_QUEUE_CONCURRENT);
-    dispatch_queue_t serialQueue = dispatch_queue_create("net.Pingan.Queue", DISPATCH_QUEUE_SERIAL);
+    //dispatch_queue_t concurrentQueue = dispatch_queue_create("com.HH.Queue", DISPATCH_QUEUE_CONCURRENT);
+    dispatch_queue_t serialQueue = dispatch_queue_create("net.HHH.Queue", DISPATCH_QUEUE_SERIAL);
     dispatch_group_async(group, serialQueue, ^{
         // 追加任务 1
         [NSThread sleepForTimeInterval:2];              // 模拟耗时操作

@@ -8,7 +8,9 @@
 
 #import "VKImageOCR.h"
 #import <AFNetworking.h>
-#define OCR_BASE_URL @"https://mgw.pingan.com.cn/icr/recognize_id_card?encoding=utf8&head_portrait=0&crop_image=0"
+#define OCR_BASE_URL @"https://mgw.xxxx.com.cn/icr/recognize_id_card?encoding=utf8&head_portrait=0&crop_image=0"
+//要用的时候将xxxx修改为pa全拼小写即可
+
 
 @implementation VKImageOCR
 
