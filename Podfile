@@ -19,5 +19,5 @@ target 'HHDemos' do
   pod 'BOString', '~> 0.10.1'
   pod 'Masonry'
   pod 'MJRefresh', '~> 3.1.12'
-  pod 'YYKit'
+ # pod 'YYKit'
 end

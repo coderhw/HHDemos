@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		206C3A9F248803880017FA41 /* AppDelegate+PushService.m in Sources */ = {isa = PBXBuildFile; fileRef = 206C3A9E248803880017FA41 /* AppDelegate+PushService.m */; };
 		20B18E0824718D3B0080AE43 /* MView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B18E0724718D3B0080AE43 /* MView.m */; };
 		20B18E0A24718D510080AE43 /* MView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20B18E0924718D510080AE43 /* MView.xib */; };
 		6408B1992463EFB700C9DFC9 /* TTThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6408B1982463EFB700C9DFC9 /* TTThreeViewController.m */; };
@@ -140,6 +141,9 @@
 
 /* Begin PBXFileReference section */
 		08BBCE2CD96E55E40A956181 /* Pods-VKTeamsProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VKTeamsProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-VKTeamsProject/Pods-VKTeamsProject.release.xcconfig"; sourceTree = "<group>"; };
+		206C3A9C2487FF6E0017FA41 /* HHDemos.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HHDemos.entitlements; sourceTree = "<group>"; };
+		206C3A9D248803880017FA41 /* AppDelegate+PushService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+PushService.h"; sourceTree = "<group>"; };
+		206C3A9E248803880017FA41 /* AppDelegate+PushService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+PushService.m"; sourceTree = "<group>"; };
 		20B18E0624718D3B0080AE43 /* MView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MView.h; sourceTree = "<group>"; };
 		20B18E0724718D3B0080AE43 /* MView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MView.m; sourceTree = "<group>"; };
 		20B18E0924718D510080AE43 /* MView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MView.xib; sourceTree = "<group>"; };
@@ -853,8 +857,11 @@
 		64BC90611F0CB705006FCEA2 /* HHDemos */ = {
 			isa = PBXGroup;
 			children = (
+				206C3A9C2487FF6E0017FA41 /* HHDemos.entitlements */,
 				64BC90651F0CB705006FCEA2 /* AppDelegate.h */,
 				64BC90661F0CB705006FCEA2 /* AppDelegate.m */,
+				206C3A9D248803880017FA41 /* AppDelegate+PushService.h */,
+				206C3A9E248803880017FA41 /* AppDelegate+PushService.m */,
 				64BC90C41F0CBD8F006FCEA2 /* Demo */,
 				64BC907F1F0CB97C006FCEA2 /* Common */,
 				64BC90621F0CB705006FCEA2 /* Supporting Files */,
@@ -1343,6 +1350,7 @@
 				6427F30C1F98828D00B4DFC1 /* NSDictionary+Util.m in Sources */,
 				6427F30B1F98828B00B4DFC1 /* NSDateFormatter+Category.m in Sources */,
 				64EC6B25207B71F9003FAE69 /* HHPlayerViewController.m in Sources */,
+				206C3A9F248803880017FA41 /* AppDelegate+PushService.m in Sources */,
 				6427F30A1F98828900B4DFC1 /* NSDate+Util.m in Sources */,
 				642F1AF52240BEDC0068A7FF /* HHLandScapeViewController.m in Sources */,
 				6427F3091F98828700B4DFC1 /* NSDate+SSToolkitAdditions.m in Sources */,
@@ -1496,7 +1504,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_ENTITLEMENTS = HHDemos/HHDemos.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Wen HU (5XTT4HX57Y)";
 				DEVELOPMENT_TEAM = Z29237TAHW;
 				ENABLE_BITCODE = NO;
@@ -1514,7 +1522,7 @@
 				GCC_PREFIX_HEADER = "HHDemos/Supporting Files/HHDemos-Prefix.pch";
 				INFOPLIST_FILE = "HHDemos/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.xxxxxx;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pingan.audiovideoBridge.debug;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "d72a2fed-e0e3-45ae-99bb-abef20fa4a00";
 				PROVISIONING_PROFILE_SPECIFIER = AudiovideoBridgeDev;
@@ -1527,7 +1535,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_ENTITLEMENTS = HHDemos/HHDemos.entitlements;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = NO;
