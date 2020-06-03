@@ -124,6 +124,8 @@
 		64FE39CD2466808000A8AC38 /* HHImagesUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FE39C82466808000A8AC38 /* HHImagesUtility.m */; };
 		64FE39CE2466808000A8AC38 /* HHCheckUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FE39C92466808000A8AC38 /* HHCheckUtility.m */; };
 		64FE39CF2466808000A8AC38 /* FCFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FE39CB2466808000A8AC38 /* FCFileManager.m */; };
+		C237EEDF2487354E00CA4BBB /* HHLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C237EEDC2487354E00CA4BBB /* HHLayoutViewController.m */; };
+		C237EEE02487354E00CA4BBB /* HHVFLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C237EEDE2487354E00CA4BBB /* HHVFLViewController.m */; };
 		C2D7CE10247768C000761AEA /* HHFunctionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D7CE0E247768C000761AEA /* HHFunctionViewController.m */; };
 		C2D7CE11247768C000761AEA /* HHFunctionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2D7CE0F247768C000761AEA /* HHFunctionViewController.xib */; };
 		C2D7CE152477B97600761AEA /* HHMutiThreadController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D7CE132477B97600761AEA /* HHMutiThreadController.m */; };
@@ -396,6 +398,10 @@
 		89DFF67A4EDF322DACD2E101 /* libPods-VKTeamsProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VKTeamsProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C7D6B19766EA2EAAD1FA379 /* Pods-HHDemos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HHDemos.release.xcconfig"; path = "Pods/Target Support Files/Pods-HHDemos/Pods-HHDemos.release.xcconfig"; sourceTree = "<group>"; };
 		B1C68D7502FEA07D8C48431D /* libPods-HHDemos.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HHDemos.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C237EEDB2487354E00CA4BBB /* HHVFLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHVFLViewController.h; sourceTree = "<group>"; };
+		C237EEDC2487354E00CA4BBB /* HHLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHLayoutViewController.m; sourceTree = "<group>"; };
+		C237EEDD2487354E00CA4BBB /* HHLayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHLayoutViewController.h; sourceTree = "<group>"; };
+		C237EEDE2487354E00CA4BBB /* HHVFLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHVFLViewController.m; sourceTree = "<group>"; };
 		C2D7CE0D247768C000761AEA /* HHFunctionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHFunctionViewController.h; sourceTree = "<group>"; };
 		C2D7CE0E247768C000761AEA /* HHFunctionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHFunctionViewController.m; sourceTree = "<group>"; };
 		C2D7CE0F247768C000761AEA /* HHFunctionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HHFunctionViewController.xib; sourceTree = "<group>"; };
@@ -1022,6 +1028,10 @@
 			children = (
 				64D8593B218B435C00903C1B /* HHLayoutController.h */,
 				64D8593C218B435C00903C1B /* HHLayoutController.m */,
+				C237EEDD2487354E00CA4BBB /* HHLayoutViewController.h */,
+				C237EEDC2487354E00CA4BBB /* HHLayoutViewController.m */,
+				C237EEDB2487354E00CA4BBB /* HHVFLViewController.h */,
+				C237EEDE2487354E00CA4BBB /* HHVFLViewController.m */,
 				64D8593E218B636F00903C1B /* View */,
 			);
 			path = AutoLayout;
@@ -1156,7 +1166,7 @@
 				TargetAttributes = {
 					64BC905E1F0CB705006FCEA2 = {
 						CreatedOnToolsVersion = 8.3;
-						DevelopmentTeam = 3X97WNYE73;
+						DevelopmentTeam = Z29237TAHW;
 						ProvisioningStyle = Manual;
 					};
 				};
@@ -1261,6 +1271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C237EEE02487354E00CA4BBB /* HHVFLViewController.m in Sources */,
 				645AFCFA20FA117100F94753 /* HHXibViewCell.m in Sources */,
 				648BB77B1F9DCAE5000FE247 /* SGQRCodeScanningView.m in Sources */,
 				649C8116208445AC00DD8E25 /* HHWebViewTestController.m in Sources */,
@@ -1301,6 +1312,7 @@
 				6427F3171F9882AA00B4DFC1 /* UIColor+Util.m in Sources */,
 				6427F3161F9882A900B4DFC1 /* UIButton+ImageTitleSpacing.m in Sources */,
 				648361E5207DBEC500373BFD /* HHCController.m in Sources */,
+				C237EEDF2487354E00CA4BBB /* HHLayoutViewController.m in Sources */,
 				648ADB0F222EB8B800DA4B22 /* HHRunLoopViewController2.m in Sources */,
 				64D8593D218B435C00903C1B /* HHLayoutController.m in Sources */,
 				64C0E8C2221C359D00FD2D84 /* HHFiterView.m in Sources */,
@@ -1481,8 +1493,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Mobile Vanke (RD4YM268K9)";
-				DEVELOPMENT_TEAM = 3X97WNYE73;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Wen HU (5XTT4HX57Y)";
+				DEVELOPMENT_TEAM = Z29237TAHW;
 				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1492,15 +1504,16 @@
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/VKTeamsProject/Supporting\\ Files",
 					Files,
+					"$(PROJECT_DIR)/HHDemos/Supporting\\ Files",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HHDemos/Supporting Files/HHDemos-Prefix.pch";
 				INFOPLIST_FILE = "HHDemos/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.xxxxx.;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xxxx;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "d72a2fed-e0e3-45ae-99bb-abef20fa4a00";
-				PROVISIONING_PROFILE_SPECIFIER = xsxtxsjsalesDebugDev;
+				PROVISIONING_PROFILE_SPECIFIER = AudiovideoBridgeDev;
 			};
 			name = Debug;
 		};
@@ -1521,12 +1534,13 @@
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/VKTeamsProject/Supporting\\ Files",
 					Files,
+					"$(PROJECT_DIR)/HHDemos/Supporting\\ Files",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HHDemos/Supporting Files/HHDemos-Prefix.pch";
 				INFOPLIST_FILE = "HHDemos/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.xxxxx.;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xxxx;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
