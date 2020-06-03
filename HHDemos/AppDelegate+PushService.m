@@ -37,8 +37,9 @@
     if(IOS8_10){
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wdeprecated-declarations"
-        UIUserNotificationType notificationTypes = UIUserNotificationTypeBadge|UIUserNotificationTypeSound| UIUserNotificationTypeAlert;
-        UIUserNotificationSettings *settings = [UIUserNotificationSettings settingsForTypes:notificationTypes categories:nil];
+        UIUserNotificationType notificationTypes = UIUserNotificationTypeBadge|UIUserNotificationTypeSound|UIUserNotificationTypeAlert;
+        UIUserNotificationSettings *settings = [UIUserNotificationSettings settingsForTypes:notificationTypes
+                                                                                 categories:nil];
         [application registerUserNotificationSettings:settings];
     }
 }
@@ -46,9 +47,9 @@
 // iOS8 +
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wdeprecated-implementations"
-- (void)application:(UIApplication *)application didRegisterUserNotificationSettings:(UIUserNotificationSettings *)notificationSettings {
+- (void)application:(UIApplication *)application
+didRegisterUserNotificationSettings:(UIUserNotificationSettings *)notificationSettings {
     // 检查当前用户是否允许通知,如果允许就调用 registerForRemoteNotifications
-    
     if (notificationSettings.types != UIUserNotificationTypeNone) {
         [application registerForRemoteNotifications];
     }
@@ -80,7 +81,10 @@
 }
 
 #pragma mark - Remote Notification
-- (void)userNotificationCenter:(UNUserNotificationCenter *)center willPresentNotification:(UNNotification *)notification withCompletionHandler:(void (^)(UNNotificationPresentationOptions))completionHandler {
+//foreground
+- (void)userNotificationCenter:(UNUserNotificationCenter *)center
+       willPresentNotification:(UNNotification *)notification
+         withCompletionHandler:(void (^)(UNNotificationPresentationOptions))completionHandler {
     
     NSLog(@"iOS10 App位于前台时，接收到本地、远程推送时的处理");
     if([notification.request.trigger isKindOfClass:[UNPushNotificationTrigger class]]) {
@@ -93,7 +97,7 @@
     UNNotificationPresentationOptions options = UNNotificationPresentationOptionAlert + UNNotificationPresentationOptionBadge + UNNotificationPresentationOptionSound;
     completionHandler(options);
 }
-
+//Background
 - (void)userNotificationCenter:(UNUserNotificationCenter *)center didReceiveNotificationResponse:(UNNotificationResponse *)response withCompletionHandler:(void (^)(void))completionHandler {
     NSLog(@"iOS10 点击推送消息时处理推送消息");
     
