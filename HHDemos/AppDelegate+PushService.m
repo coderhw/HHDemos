@@ -18,8 +18,8 @@
 #pragma mark - APNS
 - (void)registerAPNSService:(UIApplication *)application {
     
-    if(IOS10){
-        UNUserNotificationCenter * center = [UNUserNotificationCenter currentNotificationCenter];
+    if(@available(iOS 10, *)){
+        UNUserNotificationCenter *center = [UNUserNotificationCenter currentNotificationCenter];
         [center setDelegate:self];
         UNAuthorizationOptions type = UNAuthorizationOptionBadge|UNAuthorizationOptionSound|UNAuthorizationOptionAlert;
         [center requestAuthorizationWithOptions:type completionHandler:^(BOOL granted, NSError * _Nullable error) {
@@ -32,16 +32,15 @@
                 NSLog(@"register remote notification failed!");
             }
         }];
-    }
-    
-    if(IOS8_10){
+    }else{
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wdeprecated-declarations"
-        UIUserNotificationType notificationTypes = UIUserNotificationTypeBadge|UIUserNotificationTypeSound|UIUserNotificationTypeAlert;
-        UIUserNotificationSettings *settings = [UIUserNotificationSettings settingsForTypes:notificationTypes
-                                                                                 categories:nil];
-        [application registerUserNotificationSettings:settings];
+                UIUserNotificationType notificationTypes = UIUserNotificationTypeBadge|UIUserNotificationTypeSound|UIUserNotificationTypeAlert;
+                UIUserNotificationSettings *settings = [UIUserNotificationSettings settingsForTypes:notificationTypes
+                                                                                         categories:nil];
+                [application registerUserNotificationSettings:settings];
     }
+
 }
 
 // iOS8 +

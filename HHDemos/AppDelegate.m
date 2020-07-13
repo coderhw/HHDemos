@@ -21,11 +21,20 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
+    CFAbsoluteTime start = CFAbsoluteTimeGetCurrent();
+
+    
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     HHTabBarController  *rootVC = [[HHTabBarController alloc] init];
     
     //集成推送只需要引入AppDelegate+PushService.h头文件即可
     [self registerAPNSService:application];
+    
+    
+    CFAbsoluteTime end = CFAbsoluteTimeGetCurrent();
+
+    
+    NSLog(@"--- %f", end - start);
     
     self.window.rootViewController = rootVC;
     [self.window makeKeyAndVisible];

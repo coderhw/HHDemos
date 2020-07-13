@@ -29,12 +29,6 @@
 		6427F30D1F98828F00B4DFC1 /* NSString+ContentSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 6427F2B91F98800D00B4DFC1 /* NSString+ContentSize.m */; };
 		6427F30E1F98829400B4DFC1 /* NSString+MD5Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 6427F2BB1F98800D00B4DFC1 /* NSString+MD5Addition.m */; };
 		6427F30F1F98829500B4DFC1 /* NSString+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 6427F2BD1F98800D00B4DFC1 /* NSString+Util.m */; };
-		6427F3101F98829A00B4DFC1 /* NSArray+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 6427F2C01F98800D00B4DFC1 /* NSArray+Safe.m */; };
-		6427F3111F98829C00B4DFC1 /* NSDictionary+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 6427F2C21F98800D00B4DFC1 /* NSDictionary+Safe.m */; };
-		6427F3121F98829D00B4DFC1 /* NSMutableArray+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 6427F2C41F98800D00B4DFC1 /* NSMutableArray+Safe.m */; };
-		6427F3131F98829F00B4DFC1 /* NSMutableDictionary+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 6427F2C61F98800D00B4DFC1 /* NSMutableDictionary+Safe.m */; };
-		6427F3141F9882A300B4DFC1 /* NSMutableString+safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 6427F2C81F98800D00B4DFC1 /* NSMutableString+safe.m */; };
-		6427F3151F9882A700B4DFC1 /* NSObject+Hook.m in Sources */ = {isa = PBXBuildFile; fileRef = 6427F2CA1F98800D00B4DFC1 /* NSObject+Hook.m */; };
 		6427F3161F9882A900B4DFC1 /* UIButton+ImageTitleSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = 6427F2CC1F98800D00B4DFC1 /* UIButton+ImageTitleSpacing.m */; };
 		6427F3171F9882AA00B4DFC1 /* UIColor+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 6427F2CE1F98800D00B4DFC1 /* UIColor+Util.m */; };
 		6427F3181F9882AC00B4DFC1 /* UIDevice+IdentifierAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 6427F2D01F98800D00B4DFC1 /* UIDevice+IdentifierAddition.m */; };
@@ -125,9 +119,16 @@
 		64FE39CD2466808000A8AC38 /* HHImagesUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FE39C82466808000A8AC38 /* HHImagesUtility.m */; };
 		64FE39CE2466808000A8AC38 /* HHCheckUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FE39C92466808000A8AC38 /* HHCheckUtility.m */; };
 		64FE39CF2466808000A8AC38 /* FCFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FE39CB2466808000A8AC38 /* FCFileManager.m */; };
+		C232F77F24B80901008629CA /* HHVoiceButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C232F77E24B80901008629CA /* HHVoiceButton.m */; };
 		C237EEDF2487354E00CA4BBB /* HHLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C237EEDC2487354E00CA4BBB /* HHLayoutViewController.m */; };
 		C237EEE02487354E00CA4BBB /* HHVFLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C237EEDE2487354E00CA4BBB /* HHVFLViewController.m */; };
 		C25C6BDE2487C28000E3192D /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C25C6BDD2487C28000E3192D /* UserNotifications.framework */; };
+		C264217424B44F0D00A6FEB5 /* HHTestWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = C264217224B44F0D00A6FEB5 /* HHTestWindowController.m */; };
+		C264217524B44F0D00A6FEB5 /* HHTestWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C264217324B44F0D00A6FEB5 /* HHTestWindowController.xib */; };
+		C264217A24B4700A00A6FEB5 /* HHDrawBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C264217824B4700A00A6FEB5 /* HHDrawBoardViewController.m */; };
+		C264217B24B4700A00A6FEB5 /* HHDrawBoardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C264217924B4700A00A6FEB5 /* HHDrawBoardViewController.xib */; };
+		C264217F24B4715700A6FEB5 /* HHDrawBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = C264217E24B4715700A6FEB5 /* HHDrawBoard.m */; };
+		C264218224B490A300A6FEB5 /* PABDrawBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = C264218024B490A300A6FEB5 /* PABDrawBoardView.m */; };
 		C2D7CE10247768C000761AEA /* HHFunctionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D7CE0E247768C000761AEA /* HHFunctionViewController.m */; };
 		C2D7CE11247768C000761AEA /* HHFunctionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2D7CE0F247768C000761AEA /* HHFunctionViewController.xib */; };
 		C2D7CE152477B97600761AEA /* HHMutiThreadController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D7CE132477B97600761AEA /* HHMutiThreadController.m */; };
@@ -136,6 +137,7 @@
 		C2D7CE1B2477BDD900761AEA /* HHConCurrenceController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2D7CE192477BDD900761AEA /* HHConCurrenceController.xib */; };
 		C2D7CE222477D81600761AEA /* HHThreadCommunicationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D7CE202477D81600761AEA /* HHThreadCommunicationController.m */; };
 		C2D7CE232477D81600761AEA /* HHThreadCommunicationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2D7CE212477D81600761AEA /* HHThreadCommunicationController.xib */; };
+		C2E33AA6248DE6E1004666DA /* UIViewController+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = C2E33AA5248DE6E1004666DA /* UIViewController+Utils.m */; };
 		F75DD5A3D7A28A0A7190F619 /* libPods-HHDemos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1C68D7502FEA07D8C48431D /* libPods-HHDemos.a */; };
 /* End PBXBuildFile section */
 
@@ -207,18 +209,6 @@
 		6427F2BB1F98800D00B4DFC1 /* NSString+MD5Addition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5Addition.m"; sourceTree = "<group>"; };
 		6427F2BC1F98800D00B4DFC1 /* NSString+Util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Util.h"; sourceTree = "<group>"; };
 		6427F2BD1F98800D00B4DFC1 /* NSString+Util.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Util.m"; sourceTree = "<group>"; };
-		6427F2BF1F98800D00B4DFC1 /* NSArray+Safe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+Safe.h"; sourceTree = "<group>"; };
-		6427F2C01F98800D00B4DFC1 /* NSArray+Safe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Safe.m"; sourceTree = "<group>"; };
-		6427F2C11F98800D00B4DFC1 /* NSDictionary+Safe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Safe.h"; sourceTree = "<group>"; };
-		6427F2C21F98800D00B4DFC1 /* NSDictionary+Safe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Safe.m"; sourceTree = "<group>"; };
-		6427F2C31F98800D00B4DFC1 /* NSMutableArray+Safe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Safe.h"; sourceTree = "<group>"; };
-		6427F2C41F98800D00B4DFC1 /* NSMutableArray+Safe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Safe.m"; sourceTree = "<group>"; };
-		6427F2C51F98800D00B4DFC1 /* NSMutableDictionary+Safe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+Safe.h"; sourceTree = "<group>"; };
-		6427F2C61F98800D00B4DFC1 /* NSMutableDictionary+Safe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+Safe.m"; sourceTree = "<group>"; };
-		6427F2C71F98800D00B4DFC1 /* NSMutableString+safe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+safe.h"; sourceTree = "<group>"; };
-		6427F2C81F98800D00B4DFC1 /* NSMutableString+safe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+safe.m"; sourceTree = "<group>"; };
-		6427F2C91F98800D00B4DFC1 /* NSObject+Hook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Hook.h"; sourceTree = "<group>"; };
-		6427F2CA1F98800D00B4DFC1 /* NSObject+Hook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Hook.m"; sourceTree = "<group>"; };
 		6427F2CB1F98800D00B4DFC1 /* UIButton+ImageTitleSpacing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+ImageTitleSpacing.h"; sourceTree = "<group>"; };
 		6427F2CC1F98800D00B4DFC1 /* UIButton+ImageTitleSpacing.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ImageTitleSpacing.m"; sourceTree = "<group>"; };
 		6427F2CD1F98800D00B4DFC1 /* UIColor+Util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Util.h"; sourceTree = "<group>"; };
@@ -403,11 +393,23 @@
 		89DFF67A4EDF322DACD2E101 /* libPods-VKTeamsProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VKTeamsProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C7D6B19766EA2EAAD1FA379 /* Pods-HHDemos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HHDemos.release.xcconfig"; path = "Pods/Target Support Files/Pods-HHDemos/Pods-HHDemos.release.xcconfig"; sourceTree = "<group>"; };
 		B1C68D7502FEA07D8C48431D /* libPods-HHDemos.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HHDemos.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C232F77D24B80901008629CA /* HHVoiceButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHVoiceButton.h; sourceTree = "<group>"; };
+		C232F77E24B80901008629CA /* HHVoiceButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHVoiceButton.m; sourceTree = "<group>"; };
 		C237EEDB2487354E00CA4BBB /* HHVFLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHVFLViewController.h; sourceTree = "<group>"; };
 		C237EEDC2487354E00CA4BBB /* HHLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHLayoutViewController.m; sourceTree = "<group>"; };
 		C237EEDD2487354E00CA4BBB /* HHLayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHLayoutViewController.h; sourceTree = "<group>"; };
 		C237EEDE2487354E00CA4BBB /* HHVFLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHVFLViewController.m; sourceTree = "<group>"; };
 		C25C6BDD2487C28000E3192D /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		C264217124B44F0D00A6FEB5 /* HHTestWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHTestWindowController.h; sourceTree = "<group>"; };
+		C264217224B44F0D00A6FEB5 /* HHTestWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHTestWindowController.m; sourceTree = "<group>"; };
+		C264217324B44F0D00A6FEB5 /* HHTestWindowController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HHTestWindowController.xib; sourceTree = "<group>"; };
+		C264217724B4700A00A6FEB5 /* HHDrawBoardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHDrawBoardViewController.h; sourceTree = "<group>"; };
+		C264217824B4700A00A6FEB5 /* HHDrawBoardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHDrawBoardViewController.m; sourceTree = "<group>"; };
+		C264217924B4700A00A6FEB5 /* HHDrawBoardViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HHDrawBoardViewController.xib; sourceTree = "<group>"; };
+		C264217D24B4715700A6FEB5 /* HHDrawBoard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHDrawBoard.h; sourceTree = "<group>"; };
+		C264217E24B4715700A6FEB5 /* HHDrawBoard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHDrawBoard.m; sourceTree = "<group>"; };
+		C264218024B490A300A6FEB5 /* PABDrawBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PABDrawBoardView.m; sourceTree = "<group>"; };
+		C264218124B490A300A6FEB5 /* PABDrawBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PABDrawBoardView.h; sourceTree = "<group>"; };
 		C2D7CE0D247768C000761AEA /* HHFunctionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHFunctionViewController.h; sourceTree = "<group>"; };
 		C2D7CE0E247768C000761AEA /* HHFunctionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHFunctionViewController.m; sourceTree = "<group>"; };
 		C2D7CE0F247768C000761AEA /* HHFunctionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HHFunctionViewController.xib; sourceTree = "<group>"; };
@@ -420,6 +422,8 @@
 		C2D7CE1F2477D81600761AEA /* HHThreadCommunicationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHThreadCommunicationController.h; sourceTree = "<group>"; };
 		C2D7CE202477D81600761AEA /* HHThreadCommunicationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHThreadCommunicationController.m; sourceTree = "<group>"; };
 		C2D7CE212477D81600761AEA /* HHThreadCommunicationController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HHThreadCommunicationController.xib; sourceTree = "<group>"; };
+		C2E33AA4248DE6E1004666DA /* UIViewController+Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Utils.h"; sourceTree = "<group>"; };
+		C2E33AA5248DE6E1004666DA /* UIViewController+Utils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Utils.m"; sourceTree = "<group>"; };
 		C5A14C744D52E6BAE083AD0E /* Pods-VKTeamsProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VKTeamsProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VKTeamsProject/Pods-VKTeamsProject.debug.xcconfig"; sourceTree = "<group>"; };
 		CED537142550D65844623761 /* Pods-HHDemos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HHDemos.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HHDemos/Pods-HHDemos.debug.xcconfig"; sourceTree = "<group>"; };
 		EEEA5590E23A90CC6809338B /* libPods-VKDemoProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VKDemoProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -564,7 +568,6 @@
 				6427F2BB1F98800D00B4DFC1 /* NSString+MD5Addition.m */,
 				6427F2BC1F98800D00B4DFC1 /* NSString+Util.h */,
 				6427F2BD1F98800D00B4DFC1 /* NSString+Util.m */,
-				6427F2BE1F98800D00B4DFC1 /* SafeCode(防越界) */,
 				6427F2CB1F98800D00B4DFC1 /* UIButton+ImageTitleSpacing.h */,
 				6427F2CC1F98800D00B4DFC1 /* UIButton+ImageTitleSpacing.m */,
 				6427F2CD1F98800D00B4DFC1 /* UIColor+Util.h */,
@@ -587,29 +590,12 @@
 				64800C59224E6753006BBC19 /* UIViewController+Extension.m */,
 				6427F2DD1F98800D00B4DFC1 /* VKDateFormatUtil.h */,
 				6427F2DE1F98800D00B4DFC1 /* VKDateFormatUtil.m */,
+				C2E33AA4248DE6E1004666DA /* UIViewController+Utils.h */,
+				C2E33AA5248DE6E1004666DA /* UIViewController+Utils.m */,
 				6427F2DF1F98800D00B4DFC1 /* zxpCode */,
 			);
 			name = Category;
 			path = Common/Category;
-			sourceTree = "<group>";
-		};
-		6427F2BE1F98800D00B4DFC1 /* SafeCode(防越界) */ = {
-			isa = PBXGroup;
-			children = (
-				6427F2BF1F98800D00B4DFC1 /* NSArray+Safe.h */,
-				6427F2C01F98800D00B4DFC1 /* NSArray+Safe.m */,
-				6427F2C11F98800D00B4DFC1 /* NSDictionary+Safe.h */,
-				6427F2C21F98800D00B4DFC1 /* NSDictionary+Safe.m */,
-				6427F2C31F98800D00B4DFC1 /* NSMutableArray+Safe.h */,
-				6427F2C41F98800D00B4DFC1 /* NSMutableArray+Safe.m */,
-				6427F2C51F98800D00B4DFC1 /* NSMutableDictionary+Safe.h */,
-				6427F2C61F98800D00B4DFC1 /* NSMutableDictionary+Safe.m */,
-				6427F2C71F98800D00B4DFC1 /* NSMutableString+safe.h */,
-				6427F2C81F98800D00B4DFC1 /* NSMutableString+safe.m */,
-				6427F2C91F98800D00B4DFC1 /* NSObject+Hook.h */,
-				6427F2CA1F98800D00B4DFC1 /* NSObject+Hook.m */,
-			);
-			path = "SafeCode(防越界)";
 			sourceTree = "<group>";
 		};
 		6427F2DF1F98800D00B4DFC1 /* zxpCode */ = {
@@ -811,6 +797,8 @@
 		64B3F199205FC399002F0E4F /* HUIKit */ = {
 			isa = PBXGroup;
 			children = (
+				C232F77C24B808E7008629CA /* HHVoiceButton */,
+				C264217C24B4714100A6FEB5 /* HHDrawBoard */,
 				20B18E0524718D140080AE43 /* MViews */,
 				64BDE34D2285265A00742737 /* HHPickView */,
 				64BCB79E222CC5B500D5D652 /* HHRemindCardView */,
@@ -823,6 +811,12 @@
 				64AC206A2075DD4400693270 /* HHLayerController.h */,
 				64AC206B2075DD4400693270 /* HHLayerController.m */,
 				64AC206C2075DD4400693270 /* HHLayerController.xib */,
+				C264217124B44F0D00A6FEB5 /* HHTestWindowController.h */,
+				C264217224B44F0D00A6FEB5 /* HHTestWindowController.m */,
+				C264217324B44F0D00A6FEB5 /* HHTestWindowController.xib */,
+				C264217724B4700A00A6FEB5 /* HHDrawBoardViewController.h */,
+				C264217824B4700A00A6FEB5 /* HHDrawBoardViewController.m */,
+				C264217924B4700A00A6FEB5 /* HHDrawBoardViewController.xib */,
 			);
 			path = HUIKit;
 			sourceTree = "<group>";
@@ -1133,6 +1127,26 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		C232F77C24B808E7008629CA /* HHVoiceButton */ = {
+			isa = PBXGroup;
+			children = (
+				C232F77D24B80901008629CA /* HHVoiceButton.h */,
+				C232F77E24B80901008629CA /* HHVoiceButton.m */,
+			);
+			path = HHVoiceButton;
+			sourceTree = "<group>";
+		};
+		C264217C24B4714100A6FEB5 /* HHDrawBoard */ = {
+			isa = PBXGroup;
+			children = (
+				C264217D24B4715700A6FEB5 /* HHDrawBoard.h */,
+				C264217E24B4715700A6FEB5 /* HHDrawBoard.m */,
+				C264218124B490A300A6FEB5 /* PABDrawBoardView.h */,
+				C264218024B490A300A6FEB5 /* PABDrawBoardView.m */,
+			);
+			path = HHDrawBoard;
+			sourceTree = "<group>";
+		};
 		D74907214D32255E1F9C2E86 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -1213,6 +1227,7 @@
 				648361E6207DBEC500373BFD /* HHCController.xib in Resources */,
 				C2D7CE162477B97600761AEA /* HHMutiThreadController.xib in Resources */,
 				648ADB10222EB8B800DA4B22 /* HHRunLoopViewController2.xib in Resources */,
+				C264217524B44F0D00A6FEB5 /* HHTestWindowController.xib in Resources */,
 				648ADB0B222EB89800DA4B22 /* HHRunLoopViewController.xib in Resources */,
 				C2D7CE1B2477BDD900761AEA /* HHConCurrenceController.xib in Resources */,
 				64BC906F1F0CB705006FCEA2 /* Assets.xcassets in Resources */,
@@ -1231,6 +1246,7 @@
 				64BE16811F9D8C1F00DBB7BC /* HHRenderContextController.xib in Resources */,
 				C2D7CE232477D81600761AEA /* HHThreadCommunicationController.xib in Resources */,
 				64EC6B26207B71F9003FAE69 /* HHPlayerViewController.xib in Resources */,
+				C264217B24B4700A00A6FEB5 /* HHDrawBoardViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1303,6 +1319,7 @@
 				64F32ED51F988630006EF69C /* HHContactViewController.xib in Sources */,
 				6427F3211F9882C200B4DFC1 /* NSObject+ZXPUnicode.m in Sources */,
 				6427F3201F9882BF00B4DFC1 /* NSDictionary+ZXPUnicode.m in Sources */,
+				C2E33AA6248DE6E1004666DA /* UIViewController+Utils.m in Sources */,
 				6427F31F1F9882BE00B4DFC1 /* NSArray+ZXPUnicode.h in Sources */,
 				64FE39CE2466808000A8AC38 /* HHCheckUtility.m in Sources */,
 				648ADB0A222EB89800DA4B22 /* HHRunLoopViewController.m in Sources */,
@@ -1327,21 +1344,17 @@
 				648ADB0F222EB8B800DA4B22 /* HHRunLoopViewController2.m in Sources */,
 				64D8593D218B435C00903C1B /* HHLayoutController.m in Sources */,
 				64C0E8C2221C359D00FD2D84 /* HHFiterView.m in Sources */,
-				6427F3151F9882A700B4DFC1 /* NSObject+Hook.m in Sources */,
-				6427F3141F9882A300B4DFC1 /* NSMutableString+safe.m in Sources */,
 				6458D752245C07800064038A /* HHWebViewController.m in Sources */,
-				6427F3131F98829F00B4DFC1 /* NSMutableDictionary+Safe.m in Sources */,
 				64EC6B2A207BC7D7003FAE69 /* HHPreviewView.m in Sources */,
-				6427F3121F98829D00B4DFC1 /* NSMutableArray+Safe.m in Sources */,
 				64D85941218B639200903C1B /* HHDIYView.m in Sources */,
-				6427F3111F98829C00B4DFC1 /* NSDictionary+Safe.m in Sources */,
 				C2D7CE1A2477BDD900761AEA /* HHConCurrenceController.m in Sources */,
 				64B3F1A0205FDFC5002F0E4F /* HHUIViewController.m in Sources */,
 				64BCB79D222CC5B000D5D652 /* HHRemindCardView.m in Sources */,
-				6427F3101F98829A00B4DFC1 /* NSArray+Safe.m in Sources */,
 				6427F30F1F98829500B4DFC1 /* NSString+Util.m in Sources */,
+				C264217A24B4700A00A6FEB5 /* HHDrawBoardViewController.m in Sources */,
 				6427F30E1F98829400B4DFC1 /* NSString+MD5Addition.m in Sources */,
 				64BE16841F9D947000DBB7BC /* HHImageContextView.m in Sources */,
+				C232F77F24B80901008629CA /* HHVoiceButton.m in Sources */,
 				645C02D721D3D5AC00CAC406 /* HHUserPrivacyView.m in Sources */,
 				64C0E8D5221D0FD800FD2D84 /* HHCollectionController.m in Sources */,
 				6427F30D1F98828F00B4DFC1 /* NSString+ContentSize.m in Sources */,
@@ -1356,8 +1369,10 @@
 				6427F3091F98828700B4DFC1 /* NSDate+SSToolkitAdditions.m in Sources */,
 				6460D327211AE36F00F689EC /* HHParent.m in Sources */,
 				C2D7CE152477B97600761AEA /* HHMutiThreadController.m in Sources */,
+				C264217424B44F0D00A6FEB5 /* HHTestWindowController.m in Sources */,
 				64BE16BA1F9DC80600DBB7BC /* TTQRViewControler.m in Sources */,
 				64FE39CD2466808000A8AC38 /* HHImagesUtility.m in Sources */,
+				C264218224B490A300A6FEB5 /* PABDrawBoardView.m in Sources */,
 				6427F3081F98828300B4DFC1 /* NSDate+Helper.m in Sources */,
 				6427F3071F98828000B4DFC1 /* NSDate+Category.m in Sources */,
 				64ADE1EF209FFBFE005F85A6 /* HHDBViewController.m in Sources */,
@@ -1367,6 +1382,7 @@
 				6427F3031F98819700B4DFC1 /* HHMsgSend.m in Sources */,
 				C2D7CE222477D81600761AEA /* HHThreadCommunicationController.m in Sources */,
 				6427F3021F98819500B4DFC1 /* HHPerson.m in Sources */,
+				C264217F24B4715700A6FEB5 /* HHDrawBoard.m in Sources */,
 				6427F3011F98811400B4DFC1 /* HHRuntimeViewController.m in Sources */,
 				645AFCF520FA0FC900F94753 /* HHXibViewController.m in Sources */,
 				64F32ED41F988464006EF69C /* HHRuntimeViewController.xib in Sources */,

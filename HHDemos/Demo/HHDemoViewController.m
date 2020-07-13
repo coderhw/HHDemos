@@ -67,9 +67,9 @@
     self.navigationItem.title = @"List";
     
     self.demoLists = @[@"运行时Demo",@"通讯录",@"基类控制器",@"图形处理",
-                       @"二维码",@"并发控制",@"WebView",@"IQKeyBoard",
+                       @"二维码",@"并发控制",@"WebView",
                        @"UIKit",@"CALayer",@"C",@"FMDB",
-                       @"Company",@"XIB Demos",@"Layout",@"RunLoop Demo"];
+                       @"XIB Demos",@"Layout",@"RunLoop Demo"];
     self.dataSources = [NSMutableArray arrayWithArray:_demoLists];
     
     //UI
@@ -101,10 +101,6 @@
          }
          make.left.and.right.equalTo(self.view);
     }];
-
-//    [self readLocalFile:@"" resultCallback:^(BOOL success, NSError *error) {
-//
-//    }];
     
 }
 
@@ -117,14 +113,11 @@
     
 }
 
-//- (void)readLocalFile:(NSString *)localPath resultCallback:(void(^)(BOOL success, NSError *error))callback {
-//
-//}
-
 #pragma mark - UITableView Delegate
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {return self.dataSources.count;}
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return self.dataSources.count;
+}
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"YY"];
     if(!cell){
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"YY"];
@@ -176,47 +169,37 @@
             break;
         case 7:
         {
-            //viewContoller = [[HHTestIQKeyBoardController alloc] initWithNibName:@"HHTestIQKeyBoardController" bundle:nil];
+            viewContoller = [[HHUIViewController alloc] initWithNibName:@"HHUIViewController" bundle:nil];
         }
             break;
         case 8:
         {
-            viewContoller = [[HHUIViewController alloc] initWithNibName:@"HHUIViewController" bundle:nil];
-        }
-            break;
-        case 9:
-        {
             viewContoller = [[HHLayerController alloc] initWithNibName:@"HHLayerController" bundle:nil];
         }
             break;
-        case 10:
+        case 9:
         {
             viewContoller = [[HHCController alloc] initWithNibName:@"HHCController" bundle:nil];
             break;
         }
             break;
-        case 11:
+        case 10:
         {
             viewContoller = [[HHDBViewController alloc] initWithNibName:@"HHDBViewController" bundle:nil];
             break;
         }
-        case 12:
-        {
-            //viewContoller = [[HHValuationViewController alloc] init];
-            break;
-        }
-        case 13:
+        case 11:
         {
             viewContoller = [[HHFunctionViewController alloc] initWithNibName:@"HHFunctionViewController" bundle:nil];
             break;
         }
-        case 14:
+        case 12:
         {
             viewContoller = (HHBaseViewController *)[[HHLayoutController alloc] init];
             [viewContoller setValue:@"Layout" forKey:@"titleStr"];
         }
             break;
-        case 15:
+        case 13:
         {
             viewContoller = (HHRunLoopViewController *)[[HHRunLoopViewController alloc] init];
         }
@@ -243,6 +226,9 @@
     }
     return _tableView;
 }
+
+
+
 
 
 

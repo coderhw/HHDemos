@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -131,28 +131,76 @@
                         <action selector="MViewPressed:" destination="-1" eventType="touchUpInside" id="Fnb-fM-tJq"/>
                     </connections>
                 </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xih-uW-WaC">
+                    <rect key="frame" x="22" y="230" width="119" height="38"/>
+                    <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="38" id="BMn-9V-has"/>
+                        <constraint firstAttribute="width" constant="119" id="QjI-DT-N4Y"/>
+                    </constraints>
+                    <state key="normal" title="显示window">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="showWindow:" destination="-1" eventType="touchUpInside" id="JuG-xa-jWB"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dFT-Qk-sHc">
+                    <rect key="frame" x="225" y="230" width="119" height="38"/>
+                    <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="119" id="ThG-ZV-Jgv"/>
+                        <constraint firstAttribute="height" constant="38" id="gqa-i4-rVB"/>
+                    </constraints>
+                    <state key="normal" title="涂鸦">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="drawBoard:" destination="-1" eventType="touchUpInside" id="uno-37-rAa"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0DH-vq-Ikg">
+                    <rect key="frame" x="22" y="285" width="119" height="38"/>
+                    <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="38" id="ELm-fr-HwF"/>
+                        <constraint firstAttribute="width" constant="119" id="Ib0-c0-aPi"/>
+                    </constraints>
+                    <state key="normal" title="语音动画按钮">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="voiceButton:" destination="-1" eventType="touchUpInside" id="ddd-Rh-N3Q"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="biM-fg-sNg" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="22" id="1xD-3Z-ZVh"/>
                 <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="eL8-Fo-U7y" secondAttribute="trailing" constant="31" id="8nX-LB-hPJ"/>
+                <constraint firstItem="0DH-vq-Ikg" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="22" id="BcS-nf-fKh"/>
                 <constraint firstItem="ZsW-bJ-d4q" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="22" id="DYQ-cO-uaz"/>
                 <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="6Db-PK-OtR" secondAttribute="trailing" constant="31" id="Gdw-kY-Ad6"/>
                 <constraint firstItem="eL8-Fo-U7y" firstAttribute="top" secondItem="9nU-K7-FmQ" secondAttribute="bottom" constant="15" id="JAz-b6-cwC"/>
                 <constraint firstItem="9nU-K7-FmQ" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" id="LIF-yZ-4He"/>
                 <constraint firstItem="q6g-mx-7Dr" firstAttribute="top" secondItem="6Db-PK-OtR" secondAttribute="bottom" constant="21" id="N6K-pb-t4e"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="dFT-Qk-sHc" secondAttribute="trailing" constant="31" id="RhH-if-Uri"/>
                 <constraint firstItem="Eky-mn-ryg" firstAttribute="top" secondItem="f8q-BP-IqL" secondAttribute="bottom" constant="15" id="T7g-a1-PPu"/>
                 <constraint firstItem="f8q-BP-IqL" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="22" id="cSz-FX-fEB"/>
                 <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="q6g-mx-7Dr" secondAttribute="trailing" constant="31" id="d9e-0U-oPS"/>
+                <constraint firstItem="Xih-uW-WaC" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="22" id="dfL-La-gNj"/>
                 <constraint firstItem="6Db-PK-OtR" firstAttribute="top" secondItem="eL8-Fo-U7y" secondAttribute="bottom" constant="23" id="fab-qf-QLH"/>
                 <constraint firstItem="Eky-mn-ryg" firstAttribute="leading" secondItem="f8q-BP-IqL" secondAttribute="leading" id="jRG-kB-U2g"/>
                 <constraint firstItem="f8q-BP-IqL" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" id="nP1-Hc-IwT"/>
+                <constraint firstItem="dFT-Qk-sHc" firstAttribute="top" secondItem="q6g-mx-7Dr" secondAttribute="bottom" constant="19" id="oNc-xW-dMJ"/>
                 <constraint firstItem="ZsW-bJ-d4q" firstAttribute="top" secondItem="biM-fg-sNg" secondAttribute="bottom" constant="21" id="oal-68-ZTY"/>
                 <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="9nU-K7-FmQ" secondAttribute="trailing" constant="31" id="qZW-Ph-D2O"/>
                 <constraint firstItem="biM-fg-sNg" firstAttribute="top" secondItem="Eky-mn-ryg" secondAttribute="bottom" constant="23" id="qqm-RT-ULo"/>
+                <constraint firstItem="0DH-vq-Ikg" firstAttribute="top" secondItem="Xih-uW-WaC" secondAttribute="bottom" constant="17" id="sGY-Po-OxO"/>
+                <constraint firstItem="Xih-uW-WaC" firstAttribute="top" secondItem="ZsW-bJ-d4q" secondAttribute="bottom" constant="19" id="uar-P1-N5r"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
-            <point key="canvasLocation" x="218" y="-278"/>
+            <point key="canvasLocation" x="-90" y="-568"/>
         </view>
     </objects>
 </document>

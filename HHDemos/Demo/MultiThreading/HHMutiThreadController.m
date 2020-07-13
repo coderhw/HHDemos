@@ -27,7 +27,12 @@
     
     HHSemaphoreController *semaphoreController = [[HHSemaphoreController alloc]
                                                   initWithNibName:@"HHSemaphoreController" bundle:nil];
-    [self.navigationController pushViewController:semaphoreController animated:YES];
+    [self addChildViewController:semaphoreController];
+    [semaphoreController didMoveToParentViewController:self];
+    semaphoreController.view.backgroundColor = [UIColor redColor];
+    semaphoreController.view.frame = CGRectMake(0, 0, APP_WIDH, APP_HIGH);
+    [self.view addSubview:semaphoreController.view];
+//    [self.navigationController pushViewController:semaphoreController animated:YES];
 }
 
 - (IBAction)mutiThreadDemos:(id)sender {

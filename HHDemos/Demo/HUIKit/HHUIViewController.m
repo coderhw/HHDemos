@@ -8,31 +8,37 @@
 
 #import "HHUIViewController.h"
 #import "HHPullSelectView.h"
+#import "HHTestWindowController.h"
 #import "HHFiterView.h"
 #import "HHCollectionController.h"
+#import "HHDrawBoardViewController.h"
 #import "HHRemindCardView.h"
 #import "UIViewController+Extension.h"
 #import "HHPickView.h"
 #import "MView.h"
-
+#import "HHVoiceButton.h"
 
 @interface HHUIViewController ()
 
 @property (nonatomic, strong) HHPullSelectView *pullSelectView;
 @property (nonatomic, strong) HHFiterView *fiterView;
 @property (nonatomic, strong) UILabel *label;
+
+@property (nonatomic, strong) UIWindow *testWindow;
+
 @end
 
 @implementation HHUIViewController
 
 - (void)viewDidLoad {
+    
     [super viewDidLoad];
     self.titleStr = NSLocalizedString(@"UIKit", nil);
     self.view.backgroundColor = [UIColor darkGrayColor];
-    
 }
 
 - (void)viewWillDisappear:(BOOL)animated {
+    
     [super viewWillDisappear:animated];
     [_pullSelectView removeFromSuperview];
     [_pullSelectView.backgroundView removeFromSuperview];
@@ -47,7 +53,6 @@
     _pullSelectView.selectResultBlock = ^(NSArray * _Nullable selectTitles) {
         
     };
-
 }
 
 - (IBAction)dismiss:(id)sender {
@@ -97,12 +102,37 @@
 //        make.height.equalTo(@120);
 //        make.center.equalTo(mView.superview);
 //    }];
-    
-    
-    
 }
 
-#pragma mark -
+- (IBAction)showWindow:(id)sender {
+    
+    HHTestWindowController *testWindowVC = [[HHTestWindowController alloc]
+                                            initWithNibName:@"HHTestWindowController" bundle:nil];
+    self.testWindow.rootViewController = testWindowVC;
+    [self.testWindow makeKeyAndVisible];
+}
+
+- (IBAction)drawBoard:(id)sender {
+    
+    HHDrawBoardViewController *drawBoardVC = [[HHDrawBoardViewController alloc] initWithNibName:@"HHDrawBoardViewController" bundle:nil];
+    [self.navigationController pushViewController:drawBoardVC animated:YES];
+}
+
+
+- (UIWindow *)testWindow {
+    if(!_testWindow){
+        _testWindow = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    }
+    return _testWindow;
+}
+
+- (IBAction)voiceButton:(id)sender {
+    
+    
+    HHVoiceButton *voiceButton = [[HHVoiceButton alloc] initWithFrame:CGRectMake(100, 100, 18, 18)];
+    voiceButton.center = self.view.center;
+    [self.view addSubview:voiceButton];
+}
 
 
 

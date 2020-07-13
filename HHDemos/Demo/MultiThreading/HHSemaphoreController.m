@@ -46,6 +46,10 @@ dispatch_semaphore_signal(signalSemaphore);
     [self dispatchSemaphore];
 }
 
+- (CGSize)preferredContentSize {
+    return CGSizeMake(100, 100);
+}
+
 //创建一个并发量为10的线程组
 /*
  *dispatch_semaphore_create 创建一个semaphore

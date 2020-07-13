@@ -23,6 +23,7 @@
 #import "HHBaseNavigationController.h"
 #import "HHBaseViewController.h"
 #import <Masonry.h>
+#import "UIViewController+Utils.h"
 #endif
 
 #endif /* VKTeamsProject_Prefix_pch */
