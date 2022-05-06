@@ -24,4 +24,19 @@
     
 }
 
+- (BOOL)shouldAutorotate {
+    return NO;
+}
+
+//支持哪些屏幕方向
+- (UIInterfaceOrientationMask)supportedInterfaceOrientations {
+    return UIInterfaceOrientationMaskPortrait;
+}
+
+//默认方向
+- (UIInterfaceOrientation)preferredInterfaceOrientationForPresentation{
+    return UIInterfaceOrientationPortrait;
+}
+
+
 @end

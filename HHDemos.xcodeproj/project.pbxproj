@@ -1163,8 +1163,8 @@
 			children = (
 				C2BFEFAB2824C85900DA9A13 /* HHPortraitViewController.xib */,
 				C2BFEFAC2824C85900DA9A13 /* HHPortraitViewController.h */,
-				C2BFEFAD2824C85900DA9A13 /* HHLandscapeViewController.h */,
 				C2BFEFAE2824C85900DA9A13 /* HHPortraitViewController.m */,
+				C2BFEFAD2824C85900DA9A13 /* HHLandscapeViewController.h */,
 				C2BFEFAF2824C85900DA9A13 /* HHLandscapeViewController.xib */,
 				C2BFEFB02824C85900DA9A13 /* HHLandscapeViewController.m */,
 			);

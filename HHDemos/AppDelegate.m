@@ -38,7 +38,11 @@
 - (void)applicationWillEnterForeground:(UIApplication *)application {}
 - (void)applicationWillTerminate:(UIApplication *)application {}
 
-
+/// 该方法决定app支持的方向
+/// 如果没有实现该方法，则会读取plist里的设置
+- (UIInterfaceOrientationMask)application:(UIApplication *)application supportedInterfaceOrientationsForWindow:(UIWindow *)window {
+    return UIInterfaceOrientationMaskAll;
+}
 
 
 

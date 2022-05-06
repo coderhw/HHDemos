@@ -33,12 +33,28 @@
                         <action selector="push:" destination="-1" eventType="touchUpInside" id="lrl-OJ-SA7"/>
                     </connections>
                 </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w71-uJ-dFd">
+                    <rect key="frame" x="165" y="489" width="84" height="37"/>
+                    <color key="backgroundColor" systemColor="systemPinkColor"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="84" id="3gv-Um-esa"/>
+                        <constraint firstAttribute="height" constant="37" id="eq4-KR-p61"/>
+                    </constraints>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Rotate"/>
+                    <connections>
+                        <action selector="rotate:" destination="-1" eventType="touchUpInside" id="uhH-oA-MLC"/>
+                    </connections>
+                </button>
             </subviews>
             <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
+                <constraint firstItem="w71-uJ-dFd" firstAttribute="top" secondItem="EFB-DC-yOo" secondAttribute="bottom" constant="22.5" id="Dit-Ph-OVW"/>
                 <constraint firstItem="EFB-DC-yOo" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="XLS-rq-Lkw"/>
                 <constraint firstItem="EFB-DC-yOo" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="pe8-iu-52b"/>
+                <constraint firstItem="w71-uJ-dFd" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="q8O-n7-rJn"/>
             </constraints>
             <point key="canvasLocation" x="0.0" y="-4.0178571428571423"/>
         </view>
