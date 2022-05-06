@@ -134,7 +134,10 @@
     [person setAge:@"18"];
     NSLog(@"age1:%@", person.age);
     
-    objc_msgSend(person, @selector(setAge:), @"20");
+
+    
+//    (void (*)(id, SEL, id))objc_msgSend(person, @selector(setAge:), @"20");
+    ((void (*)(id, SEL, id))objc_msgSend)(person, @selector(setAge:), @"20");
     NSLog(@"age2:%@", person.age);
     
 }

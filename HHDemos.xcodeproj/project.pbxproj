@@ -129,6 +129,10 @@
 		C264217B24B4700A00A6FEB5 /* HHDrawBoardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C264217924B4700A00A6FEB5 /* HHDrawBoardViewController.xib */; };
 		C264217F24B4715700A6FEB5 /* HHDrawBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = C264217E24B4715700A6FEB5 /* HHDrawBoard.m */; };
 		C264218224B490A300A6FEB5 /* PABDrawBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = C264218024B490A300A6FEB5 /* PABDrawBoardView.m */; };
+		C2BFEFB12824C85900DA9A13 /* HHPortraitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2BFEFAB2824C85900DA9A13 /* HHPortraitViewController.xib */; };
+		C2BFEFB22824C85900DA9A13 /* HHPortraitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2BFEFAE2824C85900DA9A13 /* HHPortraitViewController.m */; };
+		C2BFEFB32824C85900DA9A13 /* HHLandscapeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2BFEFAF2824C85900DA9A13 /* HHLandscapeViewController.xib */; };
+		C2BFEFB42824C85900DA9A13 /* HHLandscapeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2BFEFB02824C85900DA9A13 /* HHLandscapeViewController.m */; };
 		C2D7CE10247768C000761AEA /* HHFunctionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D7CE0E247768C000761AEA /* HHFunctionViewController.m */; };
 		C2D7CE11247768C000761AEA /* HHFunctionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2D7CE0F247768C000761AEA /* HHFunctionViewController.xib */; };
 		C2D7CE152477B97600761AEA /* HHMutiThreadController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D7CE132477B97600761AEA /* HHMutiThreadController.m */; };
@@ -410,6 +414,12 @@
 		C264217E24B4715700A6FEB5 /* HHDrawBoard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHDrawBoard.m; sourceTree = "<group>"; };
 		C264218024B490A300A6FEB5 /* PABDrawBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PABDrawBoardView.m; sourceTree = "<group>"; };
 		C264218124B490A300A6FEB5 /* PABDrawBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PABDrawBoardView.h; sourceTree = "<group>"; };
+		C2BFEFAB2824C85900DA9A13 /* HHPortraitViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HHPortraitViewController.xib; sourceTree = "<group>"; };
+		C2BFEFAC2824C85900DA9A13 /* HHPortraitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHPortraitViewController.h; sourceTree = "<group>"; };
+		C2BFEFAD2824C85900DA9A13 /* HHLandscapeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHLandscapeViewController.h; sourceTree = "<group>"; };
+		C2BFEFAE2824C85900DA9A13 /* HHPortraitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHPortraitViewController.m; sourceTree = "<group>"; };
+		C2BFEFAF2824C85900DA9A13 /* HHLandscapeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HHLandscapeViewController.xib; sourceTree = "<group>"; };
+		C2BFEFB02824C85900DA9A13 /* HHLandscapeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHLandscapeViewController.m; sourceTree = "<group>"; };
 		C2D7CE0D247768C000761AEA /* HHFunctionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHFunctionViewController.h; sourceTree = "<group>"; };
 		C2D7CE0E247768C000761AEA /* HHFunctionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHFunctionViewController.m; sourceTree = "<group>"; };
 		C2D7CE0F247768C000761AEA /* HHFunctionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HHFunctionViewController.xib; sourceTree = "<group>"; };
@@ -904,6 +914,7 @@
 				64BC90CA1F0CBF1A006FCEA2 /* HHDemoViewController.m */,
 				6458D751245C07800064038A /* HHWebViewController.h */,
 				6458D750245C07800064038A /* HHWebViewController.m */,
+				C2BFEFAA2824C85900DA9A13 /* ScreenRotate */,
 				64EEEEF021761A2C00A9AC92 /* Mock */,
 				648ADB03222EB79B00DA4B22 /* RunLoop */,
 				64D85939218B42F300903C1B /* AutoLayout */,
@@ -1147,6 +1158,19 @@
 			path = HHDrawBoard;
 			sourceTree = "<group>";
 		};
+		C2BFEFAA2824C85900DA9A13 /* ScreenRotate */ = {
+			isa = PBXGroup;
+			children = (
+				C2BFEFAB2824C85900DA9A13 /* HHPortraitViewController.xib */,
+				C2BFEFAC2824C85900DA9A13 /* HHPortraitViewController.h */,
+				C2BFEFAD2824C85900DA9A13 /* HHLandscapeViewController.h */,
+				C2BFEFAE2824C85900DA9A13 /* HHPortraitViewController.m */,
+				C2BFEFAF2824C85900DA9A13 /* HHLandscapeViewController.xib */,
+				C2BFEFB02824C85900DA9A13 /* HHLandscapeViewController.m */,
+			);
+			path = ScreenRotate;
+			sourceTree = "<group>";
+		};
 		D74907214D32255E1F9C2E86 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -1222,6 +1246,7 @@
 				64BDE3522285268A00742737 /* HHPickView.xib in Resources */,
 				649C8117208445AC00DD8E25 /* HHWebViewTestController.xib in Resources */,
 				64ADE1F0209FFBFE005F85A6 /* HHDBViewController.xib in Resources */,
+				C2BFEFB12824C85900DA9A13 /* HHPortraitViewController.xib in Resources */,
 				64B3F1A1205FDFC5002F0E4F /* HHUIViewController.xib in Resources */,
 				20B18E0A24718D510080AE43 /* MView.xib in Resources */,
 				648361E6207DBEC500373BFD /* HHCController.xib in Resources */,
@@ -1244,6 +1269,7 @@
 				645C02D921D3D5B900CAC406 /* HHUserPrivacyView.xib in Resources */,
 				64EA9D252086E5DA0078D64A /* HHSocketController.xib in Resources */,
 				64BE16811F9D8C1F00DBB7BC /* HHRenderContextController.xib in Resources */,
+				C2BFEFB32824C85900DA9A13 /* HHLandscapeViewController.xib in Resources */,
 				C2D7CE232477D81600761AEA /* HHThreadCommunicationController.xib in Resources */,
 				64EC6B26207B71F9003FAE69 /* HHPlayerViewController.xib in Resources */,
 				C264217B24B4700A00A6FEB5 /* HHDrawBoardViewController.xib in Resources */,
@@ -1323,6 +1349,7 @@
 				6427F31F1F9882BE00B4DFC1 /* NSArray+ZXPUnicode.h in Sources */,
 				64FE39CE2466808000A8AC38 /* HHCheckUtility.m in Sources */,
 				648ADB0A222EB89800DA4B22 /* HHRunLoopViewController.m in Sources */,
+				C2BFEFB22824C85900DA9A13 /* HHPortraitViewController.m in Sources */,
 				6427F31E1F9882B900B4DFC1 /* VKDateFormatUtil.m in Sources */,
 				6459BE15203FFF1300BF9FD6 /* HHSemaphoreController.m in Sources */,
 				6459BE0C203FC83000BF9FD6 /* HHURlProtocolViewController.m in Sources */,
@@ -1393,6 +1420,7 @@
 				64F32EDB1F98ABCF006EF69C /* HHBaseTableViewController.m in Sources */,
 				64BDE3502285266B00742737 /* HHPickView.m in Sources */,
 				64BC90C01F0CB9A9006FCEA2 /* HHTabBarController.m in Sources */,
+				C2BFEFB42824C85900DA9A13 /* HHLandscapeViewController.m in Sources */,
 				64C2E3DD1FF9DEC4006B55F1 /* VKImageOCR.m in Sources */,
 				64BE16801F9D8C1F00DBB7BC /* HHRenderContextController.m in Sources */,
 				64CFA89F1FE0CFF500F02FC2 /* Student.m in Sources */,
@@ -1521,7 +1549,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = HHDemos/HHDemos.entitlements;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Wen HU (5XTT4HX57Y)";
+				CODE_SIGN_IDENTITY = "Apple Development: Wen HU (5XTT4HX57Y)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development: Wen HU (5XTT4HX57Y)";
 				DEVELOPMENT_TEAM = Z29237TAHW;
 				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = NO;
@@ -1538,10 +1567,10 @@
 				GCC_PREFIX_HEADER = "HHDemos/Supporting Files/HHDemos-Prefix.pch";
 				INFOPLIST_FILE = "HHDemos/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.pingan.audiovideoBridge.debug;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pa.pavideoDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "d72a2fed-e0e3-45ae-99bb-abef20fa4a00";
-				PROVISIONING_PROFILE_SPECIFIER = AudiovideoBridgeDev;
+				PROVISIONING_PROFILE_SPECIFIER = "G1 Profile";
 			};
 			name = Debug;
 		};

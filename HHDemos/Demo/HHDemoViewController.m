@@ -41,6 +41,7 @@
 #import "HHLayoutController.h"
 //RunLoop
 #import "HHRunLoopViewController.h"
+#import "HHPortraitViewController.h"
 
 @interface HHDemoViewController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -69,7 +70,7 @@
     self.demoLists = @[@"运行时Demo",@"通讯录",@"基类控制器",@"图形处理",
                        @"二维码",@"并发控制",@"WebView",
                        @"UIKit",@"CALayer",@"C",@"FMDB",
-                       @"XIB Demos",@"Layout",@"RunLoop Demo"];
+                       @"XIB Demos",@"Layout",@"RunLoop Demo",@"横竖屏切换"];
     self.dataSources = [NSMutableArray arrayWithArray:_demoLists];
     
     //UI
@@ -203,6 +204,12 @@
         {
             viewContoller = (HHRunLoopViewController *)[[HHRunLoopViewController alloc] init];
         }
+            break;
+        case 14:
+        {
+            viewContoller = (HHPortraitViewController *)[[HHPortraitViewController alloc] initWithNibName:@"HHPortraitViewController" bundle:nil];
+        }
+            break;
         default:
             break;
     }
