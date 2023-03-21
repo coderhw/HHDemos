@@ -10,6 +10,7 @@
 		206C3A9F248803880017FA41 /* AppDelegate+PushService.m in Sources */ = {isa = PBXBuildFile; fileRef = 206C3A9E248803880017FA41 /* AppDelegate+PushService.m */; };
 		20B18E0824718D3B0080AE43 /* MView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B18E0724718D3B0080AE43 /* MView.m */; };
 		20B18E0A24718D510080AE43 /* MView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20B18E0924718D510080AE43 /* MView.xib */; };
+		20B9195829C8969E008B8084 /* HHPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B9195729C8969E008B8084 /* HHPopView.m */; };
 		6408B1992463EFB700C9DFC9 /* TTThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6408B1982463EFB700C9DFC9 /* TTThreeViewController.m */; };
 		6427F2FE1F9880D100B4DFC1 /* HHBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6427F2E81F98800D00B4DFC1 /* HHBaseNavigationController.m */; };
 		6427F2FF1F9880D300B4DFC1 /* HHBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6427F2EA1F98800D00B4DFC1 /* HHBaseViewController.m */; };
@@ -153,6 +154,8 @@
 		20B18E0624718D3B0080AE43 /* MView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MView.h; sourceTree = "<group>"; };
 		20B18E0724718D3B0080AE43 /* MView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MView.m; sourceTree = "<group>"; };
 		20B18E0924718D510080AE43 /* MView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MView.xib; sourceTree = "<group>"; };
+		20B9195629C8969E008B8084 /* HHPopView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHPopView.h; sourceTree = "<group>"; };
+		20B9195729C8969E008B8084 /* HHPopView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHPopView.m; sourceTree = "<group>"; };
 		27A600F3BED8F3F5DCAD788E /* Pods-VKDemoProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VKDemoProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VKDemoProject/Pods-VKDemoProject.debug.xcconfig"; sourceTree = "<group>"; };
 		2A3D11FBC429A406B715FA87 /* Pods-HHDemoProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HHDemoProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-HHDemoProject/Pods-HHDemoProject.release.xcconfig"; sourceTree = "<group>"; };
 		5A1853570826D60A2C0119E5 /* Pods-HHDemoProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HHDemoProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HHDemoProject/Pods-HHDemoProject.debug.xcconfig"; sourceTree = "<group>"; };
@@ -460,6 +463,15 @@
 				20B18E0924718D510080AE43 /* MView.xib */,
 			);
 			path = MViews;
+			sourceTree = "<group>";
+		};
+		20B9195329C8965C008B8084 /* HHPopView */ = {
+			isa = PBXGroup;
+			children = (
+				20B9195629C8969E008B8084 /* HHPopView.h */,
+				20B9195729C8969E008B8084 /* HHPopView.m */,
+			);
+			path = HHPopView;
 			sourceTree = "<group>";
 		};
 		642062631FCFA8AF00040CF6 /* Model */ = {
@@ -807,6 +819,7 @@
 		64B3F199205FC399002F0E4F /* HUIKit */ = {
 			isa = PBXGroup;
 			children = (
+				20B9195329C8965C008B8084 /* HHPopView */,
 				C232F77C24B808E7008629CA /* HHVoiceButton */,
 				C264217C24B4714100A6FEB5 /* HHDrawBoard */,
 				20B18E0524718D140080AE43 /* MViews */,
@@ -1216,6 +1229,7 @@
 					64BC905E1F0CB705006FCEA2 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = Z29237TAHW;
+						LastSwiftMigration = 1410;
 						ProvisioningStyle = Manual;
 					};
 				};
@@ -1422,6 +1436,7 @@
 				64BC90C01F0CB9A9006FCEA2 /* HHTabBarController.m in Sources */,
 				C2BFEFB42824C85900DA9A13 /* HHLandscapeViewController.m in Sources */,
 				64C2E3DD1FF9DEC4006B55F1 /* VKImageOCR.m in Sources */,
+				20B9195829C8969E008B8084 /* HHPopView.m in Sources */,
 				64BE16801F9D8C1F00DBB7BC /* HHRenderContextController.m in Sources */,
 				64CFA89F1FE0CFF500F02FC2 /* Student.m in Sources */,
 				64BC90671F0CB705006FCEA2 /* AppDelegate.m in Sources */,
@@ -1548,6 +1563,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = HHDemos/HHDemos.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development: Wen HU (5XTT4HX57Y)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development: Wen HU (5XTT4HX57Y)";
@@ -1571,6 +1587,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "d72a2fed-e0e3-45ae-99bb-abef20fa4a00";
 				PROVISIONING_PROFILE_SPECIFIER = "G1 Profile";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -1580,6 +1598,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = HHDemos/HHDemos.entitlements;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
@@ -1600,6 +1619,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.pingan.audiovideoBridge.debug;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};

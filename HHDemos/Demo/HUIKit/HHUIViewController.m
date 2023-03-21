@@ -17,6 +17,7 @@
 #import "HHPickView.h"
 #import "MView.h"
 #import "HHVoiceButton.h"
+#import "HHPopView.h"
 
 @interface HHUIViewController ()
 
@@ -134,6 +135,12 @@
     [self.view addSubview:voiceButton];
 }
 
+
+- (IBAction)showPopView:(id)sender {
+    
+    HHPopView *popView = [[HHPopView alloc] initWithFrame:CGRectMake(10, 200, 200, 180)];
+    [self.view addSubview:popView];
+}
 
 
 @end
