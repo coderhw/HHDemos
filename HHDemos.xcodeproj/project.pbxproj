@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20498AE82A8763E40020682D /* HHCoreAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 20498AE72A8763E40020682D /* HHCoreAnimation.m */; };
 		206C3A9F248803880017FA41 /* AppDelegate+PushService.m in Sources */ = {isa = PBXBuildFile; fileRef = 206C3A9E248803880017FA41 /* AppDelegate+PushService.m */; };
+		207723132AF6765F00DA4BA6 /* HHBubbleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2077230F2AF6765F00DA4BA6 /* HHBubbleView.m */; };
+		2096A6D62AF6907700673133 /* UILabel+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 2096A6D52AF6907700673133 /* UILabel+Category.m */; };
 		20B18E0824718D3B0080AE43 /* MView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B18E0724718D3B0080AE43 /* MView.m */; };
 		20B18E0A24718D510080AE43 /* MView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20B18E0924718D510080AE43 /* MView.xib */; };
 		20B9195829C8969E008B8084 /* HHPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B9195729C8969E008B8084 /* HHPopView.m */; };
@@ -148,9 +151,15 @@
 
 /* Begin PBXFileReference section */
 		08BBCE2CD96E55E40A956181 /* Pods-VKTeamsProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VKTeamsProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-VKTeamsProject/Pods-VKTeamsProject.release.xcconfig"; sourceTree = "<group>"; };
+		20498AE62A8763E40020682D /* HHCoreAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHCoreAnimation.h; sourceTree = "<group>"; };
+		20498AE72A8763E40020682D /* HHCoreAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHCoreAnimation.m; sourceTree = "<group>"; };
 		206C3A9C2487FF6E0017FA41 /* HHDemos.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HHDemos.entitlements; sourceTree = "<group>"; };
 		206C3A9D248803880017FA41 /* AppDelegate+PushService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+PushService.h"; sourceTree = "<group>"; };
 		206C3A9E248803880017FA41 /* AppDelegate+PushService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+PushService.m"; sourceTree = "<group>"; };
+		2077230F2AF6765F00DA4BA6 /* HHBubbleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHBubbleView.m; sourceTree = "<group>"; };
+		207723112AF6765F00DA4BA6 /* HHBubbleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHBubbleView.h; sourceTree = "<group>"; };
+		2096A6D42AF6907700673133 /* UILabel+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Category.h"; sourceTree = "<group>"; };
+		2096A6D52AF6907700673133 /* UILabel+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Category.m"; sourceTree = "<group>"; };
 		20B18E0624718D3B0080AE43 /* MView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MView.h; sourceTree = "<group>"; };
 		20B18E0724718D3B0080AE43 /* MView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MView.m; sourceTree = "<group>"; };
 		20B18E0924718D510080AE43 /* MView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MView.xib; sourceTree = "<group>"; };
@@ -455,6 +464,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2077230E2AF6764A00DA4BA6 /* HHBubbleView */ = {
+			isa = PBXGroup;
+			children = (
+				207723112AF6765F00DA4BA6 /* HHBubbleView.h */,
+				2077230F2AF6765F00DA4BA6 /* HHBubbleView.m */,
+			);
+			path = HHBubbleView;
+			sourceTree = "<group>";
+		};
 		20B18E0524718D140080AE43 /* MViews */ = {
 			isa = PBXGroup;
 			children = (
@@ -575,6 +593,8 @@
 				6427F2AC1F98800D00B4DFC1 /* NSDate+Category.h */,
 				6427F2AD1F98800D00B4DFC1 /* NSDate+Category.m */,
 				6427F2AE1F98800D00B4DFC1 /* NSDate+Helper.h */,
+				2096A6D42AF6907700673133 /* UILabel+Category.h */,
+				2096A6D52AF6907700673133 /* UILabel+Category.m */,
 				6427F2AF1F98800D00B4DFC1 /* NSDate+Helper.m */,
 				6427F2B01F98800D00B4DFC1 /* NSDate+SSToolkitAdditions.h */,
 				6427F2B11F98800D00B4DFC1 /* NSDate+SSToolkitAdditions.m */,
@@ -819,6 +839,7 @@
 		64B3F199205FC399002F0E4F /* HUIKit */ = {
 			isa = PBXGroup;
 			children = (
+				2077230E2AF6764A00DA4BA6 /* HHBubbleView */,
 				20B9195329C8965C008B8084 /* HHPopView */,
 				C232F77C24B808E7008629CA /* HHVoiceButton */,
 				C264217C24B4714100A6FEB5 /* HHDrawBoard */,
@@ -877,6 +898,8 @@
 				206C3A9C2487FF6E0017FA41 /* HHDemos.entitlements */,
 				64BC90651F0CB705006FCEA2 /* AppDelegate.h */,
 				64BC90661F0CB705006FCEA2 /* AppDelegate.m */,
+				20498AE62A8763E40020682D /* HHCoreAnimation.h */,
+				20498AE72A8763E40020682D /* HHCoreAnimation.m */,
 				206C3A9D248803880017FA41 /* AppDelegate+PushService.h */,
 				206C3A9E248803880017FA41 /* AppDelegate+PushService.m */,
 				64BC90C41F0CBD8F006FCEA2 /* Demo */,
@@ -1347,6 +1370,8 @@
 				648BB77A1F9DCAE3000FE247 /* SGQRCodeScanManager.m in Sources */,
 				648BB7791F9DCAE1000FE247 /* SGQRCodeHelperTool.m in Sources */,
 				64CFA89E1FE0CFF500F02FC2 /* Teacher.m in Sources */,
+				207723132AF6765F00DA4BA6 /* HHBubbleView.m in Sources */,
+				20498AE82A8763E40020682D /* HHCoreAnimation.m in Sources */,
 				64EA9D242086E5DA0078D64A /* HHSocketController.m in Sources */,
 				64B3F19C205FC3C7002F0E4F /* HHPullSelectView.m in Sources */,
 				C2D7CE10247768C000761AEA /* HHFunctionViewController.m in Sources */,
@@ -1424,6 +1449,7 @@
 				C2D7CE222477D81600761AEA /* HHThreadCommunicationController.m in Sources */,
 				6427F3021F98819500B4DFC1 /* HHPerson.m in Sources */,
 				C264217F24B4715700A6FEB5 /* HHDrawBoard.m in Sources */,
+				2096A6D62AF6907700673133 /* UILabel+Category.m in Sources */,
 				6427F3011F98811400B4DFC1 /* HHRuntimeViewController.m in Sources */,
 				645AFCF520FA0FC900F94753 /* HHXibViewController.m in Sources */,
 				64F32ED41F988464006EF69C /* HHRuntimeViewController.xib in Sources */,
@@ -1568,6 +1594,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development: Wen HU (5XTT4HX57Y)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development: Wen HU (5XTT4HX57Y)";
 				DEVELOPMENT_TEAM = Z29237TAHW;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = Z29237TAHW;
 				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1583,10 +1610,11 @@
 				GCC_PREFIX_HEADER = "HHDemos/Supporting Files/HHDemos-Prefix.pch";
 				INFOPLIST_FILE = "HHDemos/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.pa.pavideoDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pa.pavideoDemo2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "d72a2fed-e0e3-45ae-99bb-abef20fa4a00";
-				PROVISIONING_PROFILE_SPECIFIER = "G1 Profile";
+				PROVISIONING_PROFILE_SPECIFIER = "G2 profile";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "G2 profile";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
@@ -1600,6 +1628,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = HHDemos/HHDemos.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development: Wen HU (5XTT4HX57Y)";
 				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = NO;

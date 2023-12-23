@@ -18,6 +18,7 @@
 #import "MView.h"
 #import "HHVoiceButton.h"
 #import "HHPopView.h"
+#import "HHBubbleView.h"
 
 @interface HHUIViewController ()
 
@@ -138,8 +139,11 @@
 
 - (IBAction)showPopView:(id)sender {
     
-    HHPopView *popView = [[HHPopView alloc] initWithFrame:CGRectMake(10, 200, 200, 180)];
-    [self.view addSubview:popView];
+//    HHPopView *popView = [[HHPopView alloc] initWithFrame:CGRectMake(10, 200, 200, 180)];
+//    [self.view addSubview:popView];
+    
+    HHBubbleView *bubbleView = [HHBubbleView bubbleView];
+    [bubbleView show:@"你好吗，你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好12"];
 }
 
 

@@ -48,9 +48,9 @@
         responseCallback(data);
     }];
 //
-//    [self.bridge callHandler:@"JS Echo" data:nil responseCallback:^(id responseData) {
-//        NSLog(@"ObjC received response: %@", responseData);
-//    }];
+    [self.bridge callHandler:@"JS Echo" data:nil responseCallback:^(id responseData) {
+        NSLog(@"ObjC received response: %@", responseData);
+    }];
 }
 
 #pragma mark - LandScape Method

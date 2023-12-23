@@ -10,8 +10,23 @@
 @interface NSString (ContentSize)
 
 /**
- *  计算当前字符串显示所需的实际frame，返回值的x = 0, y = 0
+ *  计算文字的高度
+ *
+ *  @param font  字体(默认为系统字体)
+ *  @param width 约束宽度
+ *
+ *  @return 文字高度
  */
-- (CGRect)textRectWithSize:(CGSize)size attributes:(NSDictionary *)attributes;
+- (CGFloat)paba_heightWithFont:(UIFont *)font constrainedToWidth:(CGFloat)width;
+
+/**
+ *  计算文字的宽度
+ *
+ *  @param font   字体(默认为系统字体)
+ *  @param height 约束高度
+ *
+ *  @return 文字宽度
+ */
+- (CGFloat)paba_widthWithFont:(UIFont *)font constrainedToHeight:(CGFloat)height;
 
 @end
