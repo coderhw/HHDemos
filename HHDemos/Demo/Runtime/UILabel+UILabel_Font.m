@@ -92,8 +92,8 @@
     [self myWillMoveToSuperview:newSuperview];
     if(newSuperview != nil) {
         
-//        self.textColor = [UIColor colorWithHex:@"#333333"];
-//        self.font = kFONT(kTitleName_PingFang_R, 14);
+        self.textColor = [UIColor colorWithHex:@"#333333"];
+        self.font = kFONT(kTitleName_PingFang_R, 14);
     }
 }
 

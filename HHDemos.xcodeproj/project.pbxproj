@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		20498AE82A8763E40020682D /* HHCoreAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 20498AE72A8763E40020682D /* HHCoreAnimation.m */; };
+		2058F4F12B3682A1003E4E0B /* HHFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2058F4F02B3682A1003E4E0B /* HHFirstViewController.m */; };
+		2058F4F42B3682AF003E4E0B /* HHSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2058F4F32B3682AF003E4E0B /* HHSecondViewController.m */; };
+		2058F4F72B36AA4D003E4E0B /* HHModelInteractiveAnimatedTranstition.m in Sources */ = {isa = PBXBuildFile; fileRef = 2058F4F62B36AA4D003E4E0B /* HHModelInteractiveAnimatedTranstition.m */; };
+		2058F4FA2B36AB11003E4E0B /* HHModelPercentDrivenInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 2058F4F92B36AB11003E4E0B /* HHModelPercentDrivenInteractiveTransition.m */; };
+		2058F4FD2B36B2B3003E4E0B /* HHModelInteractivePresentAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2058F4FC2B36B2B3003E4E0B /* HHModelInteractivePresentAnimator.m */; };
+		2058F5002B36B2ED003E4E0B /* HHModelInteractivePopAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2058F4FF2B36B2ED003E4E0B /* HHModelInteractivePopAnimator.m */; };
+		2058F5032B36CCC9003E4E0B /* UIViewController+hook.m in Sources */ = {isa = PBXBuildFile; fileRef = 2058F5012B36CCC8003E4E0B /* UIViewController+hook.m */; };
 		206C3A9F248803880017FA41 /* AppDelegate+PushService.m in Sources */ = {isa = PBXBuildFile; fileRef = 206C3A9E248803880017FA41 /* AppDelegate+PushService.m */; };
 		207723132AF6765F00DA4BA6 /* HHBubbleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2077230F2AF6765F00DA4BA6 /* HHBubbleView.m */; };
 		2096A6D62AF6907700673133 /* UILabel+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 2096A6D52AF6907700673133 /* UILabel+Category.m */; };
@@ -153,6 +160,20 @@
 		08BBCE2CD96E55E40A956181 /* Pods-VKTeamsProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VKTeamsProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-VKTeamsProject/Pods-VKTeamsProject.release.xcconfig"; sourceTree = "<group>"; };
 		20498AE62A8763E40020682D /* HHCoreAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHCoreAnimation.h; sourceTree = "<group>"; };
 		20498AE72A8763E40020682D /* HHCoreAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHCoreAnimation.m; sourceTree = "<group>"; };
+		2058F4EF2B3682A1003E4E0B /* HHFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHFirstViewController.h; sourceTree = "<group>"; };
+		2058F4F02B3682A1003E4E0B /* HHFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHFirstViewController.m; sourceTree = "<group>"; };
+		2058F4F22B3682AF003E4E0B /* HHSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHSecondViewController.h; sourceTree = "<group>"; };
+		2058F4F32B3682AF003E4E0B /* HHSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHSecondViewController.m; sourceTree = "<group>"; };
+		2058F4F52B36AA4D003E4E0B /* HHModelInteractiveAnimatedTranstition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHModelInteractiveAnimatedTranstition.h; sourceTree = "<group>"; };
+		2058F4F62B36AA4D003E4E0B /* HHModelInteractiveAnimatedTranstition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHModelInteractiveAnimatedTranstition.m; sourceTree = "<group>"; };
+		2058F4F82B36AB11003E4E0B /* HHModelPercentDrivenInteractiveTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHModelPercentDrivenInteractiveTransition.h; sourceTree = "<group>"; };
+		2058F4F92B36AB11003E4E0B /* HHModelPercentDrivenInteractiveTransition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHModelPercentDrivenInteractiveTransition.m; sourceTree = "<group>"; };
+		2058F4FB2B36B2B3003E4E0B /* HHModelInteractivePresentAnimator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHModelInteractivePresentAnimator.h; sourceTree = "<group>"; };
+		2058F4FC2B36B2B3003E4E0B /* HHModelInteractivePresentAnimator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHModelInteractivePresentAnimator.m; sourceTree = "<group>"; };
+		2058F4FE2B36B2ED003E4E0B /* HHModelInteractivePopAnimator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHModelInteractivePopAnimator.h; sourceTree = "<group>"; };
+		2058F4FF2B36B2ED003E4E0B /* HHModelInteractivePopAnimator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHModelInteractivePopAnimator.m; sourceTree = "<group>"; };
+		2058F5012B36CCC8003E4E0B /* UIViewController+hook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+hook.m"; sourceTree = "<group>"; };
+		2058F5022B36CCC9003E4E0B /* UIViewController+hook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+hook.h"; sourceTree = "<group>"; };
 		206C3A9C2487FF6E0017FA41 /* HHDemos.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HHDemos.entitlements; sourceTree = "<group>"; };
 		206C3A9D248803880017FA41 /* AppDelegate+PushService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+PushService.h"; sourceTree = "<group>"; };
 		206C3A9E248803880017FA41 /* AppDelegate+PushService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+PushService.m"; sourceTree = "<group>"; };
@@ -464,6 +485,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2058F4EE2B368241003E4E0B /* CustomTransitioning */ = {
+			isa = PBXGroup;
+			children = (
+				2058F4EF2B3682A1003E4E0B /* HHFirstViewController.h */,
+				2058F4F02B3682A1003E4E0B /* HHFirstViewController.m */,
+				2058F4F22B3682AF003E4E0B /* HHSecondViewController.h */,
+				2058F4F32B3682AF003E4E0B /* HHSecondViewController.m */,
+				2058F4F52B36AA4D003E4E0B /* HHModelInteractiveAnimatedTranstition.h */,
+				2058F4F62B36AA4D003E4E0B /* HHModelInteractiveAnimatedTranstition.m */,
+				2058F4F82B36AB11003E4E0B /* HHModelPercentDrivenInteractiveTransition.h */,
+				2058F4F92B36AB11003E4E0B /* HHModelPercentDrivenInteractiveTransition.m */,
+				2058F4FB2B36B2B3003E4E0B /* HHModelInteractivePresentAnimator.h */,
+				2058F4FC2B36B2B3003E4E0B /* HHModelInteractivePresentAnimator.m */,
+				2058F4FE2B36B2ED003E4E0B /* HHModelInteractivePopAnimator.h */,
+				2058F4FF2B36B2ED003E4E0B /* HHModelInteractivePopAnimator.m */,
+			);
+			path = CustomTransitioning;
+			sourceTree = "<group>";
+		};
 		2077230E2AF6764A00DA4BA6 /* HHBubbleView */ = {
 			isa = PBXGroup;
 			children = (
@@ -634,6 +674,8 @@
 				6427F2DE1F98800D00B4DFC1 /* VKDateFormatUtil.m */,
 				C2E33AA4248DE6E1004666DA /* UIViewController+Utils.h */,
 				C2E33AA5248DE6E1004666DA /* UIViewController+Utils.m */,
+				2058F5022B36CCC9003E4E0B /* UIViewController+hook.h */,
+				2058F5012B36CCC8003E4E0B /* UIViewController+hook.m */,
 				6427F2DF1F98800D00B4DFC1 /* zxpCode */,
 			);
 			name = Category;
@@ -950,6 +992,7 @@
 				64BC90CA1F0CBF1A006FCEA2 /* HHDemoViewController.m */,
 				6458D751245C07800064038A /* HHWebViewController.h */,
 				6458D750245C07800064038A /* HHWebViewController.m */,
+				2058F4EE2B368241003E4E0B /* CustomTransitioning */,
 				C2BFEFAA2824C85900DA9A13 /* ScreenRotate */,
 				64EEEEF021761A2C00A9AC92 /* Mock */,
 				648ADB03222EB79B00DA4B22 /* RunLoop */,
@@ -1370,6 +1413,7 @@
 				648BB77A1F9DCAE3000FE247 /* SGQRCodeScanManager.m in Sources */,
 				648BB7791F9DCAE1000FE247 /* SGQRCodeHelperTool.m in Sources */,
 				64CFA89E1FE0CFF500F02FC2 /* Teacher.m in Sources */,
+				2058F4FA2B36AB11003E4E0B /* HHModelPercentDrivenInteractiveTransition.m in Sources */,
 				207723132AF6765F00DA4BA6 /* HHBubbleView.m in Sources */,
 				20498AE82A8763E40020682D /* HHCoreAnimation.m in Sources */,
 				64EA9D242086E5DA0078D64A /* HHSocketController.m in Sources */,
@@ -1377,6 +1421,7 @@
 				C2D7CE10247768C000761AEA /* HHFunctionViewController.m in Sources */,
 				20B18E0824718D3B0080AE43 /* MView.m in Sources */,
 				64FE39CF2466808000A8AC38 /* FCFileManager.m in Sources */,
+				2058F5002B36B2ED003E4E0B /* HHModelInteractivePopAnimator.m in Sources */,
 				6498EDF12142184C00A1BEC0 /* HHDatabase.m in Sources */,
 				648BB7781F9DCAE0000FE247 /* SGQRCodeGenerateManager.m in Sources */,
 				648BB7771F9DCADC000FE247 /* SGQRCodeAlbumManager.m in Sources */,
@@ -1409,9 +1454,11 @@
 				C237EEDF2487354E00CA4BBB /* HHLayoutViewController.m in Sources */,
 				648ADB0F222EB8B800DA4B22 /* HHRunLoopViewController2.m in Sources */,
 				64D8593D218B435C00903C1B /* HHLayoutController.m in Sources */,
+				2058F4F42B3682AF003E4E0B /* HHSecondViewController.m in Sources */,
 				64C0E8C2221C359D00FD2D84 /* HHFiterView.m in Sources */,
 				6458D752245C07800064038A /* HHWebViewController.m in Sources */,
 				64EC6B2A207BC7D7003FAE69 /* HHPreviewView.m in Sources */,
+				2058F4F72B36AA4D003E4E0B /* HHModelInteractiveAnimatedTranstition.m in Sources */,
 				64D85941218B639200903C1B /* HHDIYView.m in Sources */,
 				C2D7CE1A2477BDD900761AEA /* HHConCurrenceController.m in Sources */,
 				64B3F1A0205FDFC5002F0E4F /* HHUIViewController.m in Sources */,
@@ -1426,11 +1473,13 @@
 				6427F30D1F98828F00B4DFC1 /* NSString+ContentSize.m in Sources */,
 				643621CF206399C100C6440E /* HHBook.m in Sources */,
 				64ADE1F420A0071C005F85A6 /* HHBookModel.m in Sources */,
+				2058F4FD2B36B2B3003E4E0B /* HHModelInteractivePresentAnimator.m in Sources */,
 				6427F30C1F98828D00B4DFC1 /* NSDictionary+Util.m in Sources */,
 				6427F30B1F98828B00B4DFC1 /* NSDateFormatter+Category.m in Sources */,
 				64EC6B25207B71F9003FAE69 /* HHPlayerViewController.m in Sources */,
 				206C3A9F248803880017FA41 /* AppDelegate+PushService.m in Sources */,
 				6427F30A1F98828900B4DFC1 /* NSDate+Util.m in Sources */,
+				2058F5032B36CCC9003E4E0B /* UIViewController+hook.m in Sources */,
 				642F1AF52240BEDC0068A7FF /* HHLandScapeViewController.m in Sources */,
 				6427F3091F98828700B4DFC1 /* NSDate+SSToolkitAdditions.m in Sources */,
 				6460D327211AE36F00F689EC /* HHParent.m in Sources */,
@@ -1459,6 +1508,7 @@
 				6427F2FE1F9880D100B4DFC1 /* HHBaseNavigationController.m in Sources */,
 				64F32EDB1F98ABCF006EF69C /* HHBaseTableViewController.m in Sources */,
 				64BDE3502285266B00742737 /* HHPickView.m in Sources */,
+				2058F4F12B3682A1003E4E0B /* HHFirstViewController.m in Sources */,
 				64BC90C01F0CB9A9006FCEA2 /* HHTabBarController.m in Sources */,
 				C2BFEFB42824C85900DA9A13 /* HHLandscapeViewController.m in Sources */,
 				64C2E3DD1FF9DEC4006B55F1 /* VKImageOCR.m in Sources */,

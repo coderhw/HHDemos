@@ -12,6 +12,8 @@
 
 #import "AppDelegate+PushService.h"
 
+#import "HHFirstViewController.h"
+
 @interface AppDelegate ()
 
 @end
