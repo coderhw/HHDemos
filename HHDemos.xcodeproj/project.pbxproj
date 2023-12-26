@@ -15,6 +15,8 @@
 		2058F4FD2B36B2B3003E4E0B /* HHModelInteractivePresentAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2058F4FC2B36B2B3003E4E0B /* HHModelInteractivePresentAnimator.m */; };
 		2058F5002B36B2ED003E4E0B /* HHModelInteractivePopAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2058F4FF2B36B2ED003E4E0B /* HHModelInteractivePopAnimator.m */; };
 		2058F5032B36CCC9003E4E0B /* UIViewController+hook.m in Sources */ = {isa = PBXBuildFile; fileRef = 2058F5012B36CCC8003E4E0B /* UIViewController+hook.m */; };
+		2058F5072B36D298003E4E0B /* FTPopOverMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 2058F5052B36D298003E4E0B /* FTPopOverMenu.m */; };
+		2058F50A2B36D2C3003E4E0B /* HHPopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2058F5092B36D2C3003E4E0B /* HHPopViewController.m */; };
 		206C3A9F248803880017FA41 /* AppDelegate+PushService.m in Sources */ = {isa = PBXBuildFile; fileRef = 206C3A9E248803880017FA41 /* AppDelegate+PushService.m */; };
 		207723132AF6765F00DA4BA6 /* HHBubbleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2077230F2AF6765F00DA4BA6 /* HHBubbleView.m */; };
 		2096A6D62AF6907700673133 /* UILabel+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 2096A6D52AF6907700673133 /* UILabel+Category.m */; };
@@ -174,6 +176,10 @@
 		2058F4FF2B36B2ED003E4E0B /* HHModelInteractivePopAnimator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHModelInteractivePopAnimator.m; sourceTree = "<group>"; };
 		2058F5012B36CCC8003E4E0B /* UIViewController+hook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+hook.m"; sourceTree = "<group>"; };
 		2058F5022B36CCC9003E4E0B /* UIViewController+hook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+hook.h"; sourceTree = "<group>"; };
+		2058F5052B36D298003E4E0B /* FTPopOverMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTPopOverMenu.m; sourceTree = "<group>"; };
+		2058F5062B36D298003E4E0B /* FTPopOverMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTPopOverMenu.h; sourceTree = "<group>"; };
+		2058F5082B36D2C3003E4E0B /* HHPopViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHPopViewController.h; sourceTree = "<group>"; };
+		2058F5092B36D2C3003E4E0B /* HHPopViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHPopViewController.m; sourceTree = "<group>"; };
 		206C3A9C2487FF6E0017FA41 /* HHDemos.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HHDemos.entitlements; sourceTree = "<group>"; };
 		206C3A9D248803880017FA41 /* AppDelegate+PushService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+PushService.h"; sourceTree = "<group>"; };
 		206C3A9E248803880017FA41 /* AppDelegate+PushService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+PushService.m"; sourceTree = "<group>"; };
@@ -502,6 +508,17 @@
 				2058F4FF2B36B2ED003E4E0B /* HHModelInteractivePopAnimator.m */,
 			);
 			path = CustomTransitioning;
+			sourceTree = "<group>";
+		};
+		2058F5042B36D28A003E4E0B /* HHPop */ = {
+			isa = PBXGroup;
+			children = (
+				2058F5062B36D298003E4E0B /* FTPopOverMenu.h */,
+				2058F5052B36D298003E4E0B /* FTPopOverMenu.m */,
+				2058F5082B36D2C3003E4E0B /* HHPopViewController.h */,
+				2058F5092B36D2C3003E4E0B /* HHPopViewController.m */,
+			);
+			path = HHPop;
 			sourceTree = "<group>";
 		};
 		2077230E2AF6764A00DA4BA6 /* HHBubbleView */ = {
@@ -992,6 +1009,7 @@
 				64BC90CA1F0CBF1A006FCEA2 /* HHDemoViewController.m */,
 				6458D751245C07800064038A /* HHWebViewController.h */,
 				6458D750245C07800064038A /* HHWebViewController.m */,
+				2058F5042B36D28A003E4E0B /* HHPop */,
 				2058F4EE2B368241003E4E0B /* CustomTransitioning */,
 				C2BFEFAA2824C85900DA9A13 /* ScreenRotate */,
 				64EEEEF021761A2C00A9AC92 /* Mock */,
@@ -1447,6 +1465,7 @@
 				64F32ED81F98A104006EF69C /* TTSecondViewController.m in Sources */,
 				6427F31A1F9882B100B4DFC1 /* UINavigationBar+Awesome.m in Sources */,
 				6427F3191F9882AE00B4DFC1 /* UIImage+Additions.m in Sources */,
+				2058F50A2B36D2C3003E4E0B /* HHPopViewController.m in Sources */,
 				6427F3181F9882AC00B4DFC1 /* UIDevice+IdentifierAddition.m in Sources */,
 				6427F3171F9882AA00B4DFC1 /* UIColor+Util.m in Sources */,
 				6427F3161F9882A900B4DFC1 /* UIButton+ImageTitleSpacing.m in Sources */,
@@ -1468,6 +1487,7 @@
 				6427F30E1F98829400B4DFC1 /* NSString+MD5Addition.m in Sources */,
 				64BE16841F9D947000DBB7BC /* HHImageContextView.m in Sources */,
 				C232F77F24B80901008629CA /* HHVoiceButton.m in Sources */,
+				2058F5072B36D298003E4E0B /* FTPopOverMenu.m in Sources */,
 				645C02D721D3D5AC00CAC406 /* HHUserPrivacyView.m in Sources */,
 				64C0E8D5221D0FD800FD2D84 /* HHCollectionController.m in Sources */,
 				6427F30D1F98828F00B4DFC1 /* NSString+ContentSize.m in Sources */,

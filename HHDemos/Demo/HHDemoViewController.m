@@ -42,8 +42,10 @@
 //RunLoop
 #import "HHRunLoopViewController.h"
 #import "HHPortraitViewController.h"
+//CustromTranstritition
 #import "HHFirstViewController.h"
-
+//POP
+#import "HHPopViewController.h"
 @interface HHDemoViewController ()<UITableViewDelegate, UITableViewDataSource>
 
 @property (nonatomic, strong) UITableView       *tableView;
@@ -71,7 +73,7 @@
     self.demoLists = @[@"运行时Demo",@"通讯录",@"基类控制器",@"图形处理",
                        @"二维码",@"并发控制",@"WebView",
                        @"UIKit",@"CALayer",@"C",@"FMDB",
-                       @"XIB Demos",@"Layout",@"RunLoop Demo",@"横竖屏切换",@"自定义转场"];
+                       @"XIB Demos",@"Layout",@"RunLoop Demo",@"横竖屏切换",@"自定义转场",@"POP"];
     self.dataSources = [NSMutableArray arrayWithArray:_demoLists];
     
     //UI
@@ -214,6 +216,11 @@
         case 15:
         {
             viewContoller = (HHFirstViewController *)[[HHFirstViewController alloc] init];
+        }
+            break;
+        case 16:
+        {
+            viewContoller = (HHPopViewController *)[[HHPopViewController alloc] init];
         }
             break;
         default:
