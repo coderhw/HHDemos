@@ -1,5 +1,5 @@
 //
-//  HHFirstViewController.h
+//  HHSourceViewController.h
 //  HHDemos
 //
 //  Created by Huwen on 2023/12/23.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface HHFirstViewController : HHBaseViewController
+@interface HHSourceViewController : HHBaseViewController
 
 @end
 
